@@ -21,7 +21,7 @@ Production RAG reliability · Agent workflow automation · AI observability for 
 
 ### 💼 Freelance Services
 - **AI Infrastructure Architecture** — RAG pipelines, agent workflows, production reliability
-- **AI System Audits** — Identify bottlenecks, failure modes, and，成本优化
+- **AI System Audits** — Identify bottlenecks, failure modes, and cost optimization
 - **Agent Workflow Design** — Autonomous multi-step systems with error recovery
 
 [Upwork Profile →](https://www.upwork.com/freelancers/~yourprofile) · [Book a call →](https://cal.com)
