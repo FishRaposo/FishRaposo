@@ -1,10 +1,10 @@
 # Vinícius Raposo
 
-**AI Infrastructure Architect** · Brazil · Remote
+**AI Reliability Strategist** · Brazil · Remote
 
 *I build the systems that work while you don't.*
 
-Production RAG reliability · Agent workflow automation · AI observability for startups and small teams.
+Closing the gap between AI demos and AI that actually works — for startups and small teams who are done with prototypes that break in production.
 
 ---
 
@@ -13,15 +13,15 @@ Production RAG reliability · Agent workflow automation · AI observability for 
 ### 💰 Digital Products
 | Product | Price | Platform |
 |---|---|---|
-| AI Infrastructure Reliability Kit | $14 | Gumroad |
+| AI Reliability Kit | $14 | Gumroad |
 | WCP Compliance Agent (CLI) | $29 | Gumroad |
 | AI System Audit Framework | $79 | Gumroad |
 
 [Browse all products →](https://fishraposo.github.io)
 
 ### 💼 Freelance Services
-- **AI Infrastructure Architecture** — RAG pipelines, agent workflows, production reliability
-- **AI System Audits** — Identify bottlenecks, failure modes, and cost optimization
+- **AI Reliability Architecture** — RAG pipelines, agent workflows, production reliability
+- **AI System Audits** — Identify what's breaking, why it's breaking, and the fastest path to production
 - **Agent Workflow Design** — Autonomous multi-step systems with error recovery
 
 [Upwork Profile →](https://www.upwork.com/freelancers/~yourprofile) · [Book a call →](https://cal.com)
@@ -31,7 +31,7 @@ Production RAG reliability · Agent workflow automation · AI observability for 
 ## Proof
 
 - 🔧 **WCP Compliance Agent** — 500+ CLI installs · 94% compliance rate
-- 📊 **AI Infrastructure Reliability Kit** — 5 products published · 3 active buyers
+- 📊 **AI Reliability Kit** — 5 products published · 3 active buyers
 - 🧪 **1,500+ test runs** across open source repos
 - ☁️ **47 GitHub commits** this year
 - 🔗 [Portfolio](https://fishraposo.github.io) · [Upwork](https://www.upwork.com/freelancers/~yourprofile) · [X/Twitter](https://x.com/FishRaposo) · [LinkedIn](https://linkedin.com/in/viniciusraposo)
