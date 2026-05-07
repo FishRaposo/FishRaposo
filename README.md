@@ -16,7 +16,7 @@ I help founders and small teams turn fragile AI prototypes into production-ready
 
 ## Proof
 
-- **WCP Compliance Agent** — Production RAG + agents + guardrails + Mastra + OpenAI. Repo: github.com/FishRaposo/WCP-Compliance-Agent-V3
+- **WCP Compliance Agent V5** — Five-service monorepo for WH-347 payroll compliance. React 19 · Vercel AI SDK · FastAPI × 2. 271 tests, 0 failures, mock mode with zero deps. Repo: github.com/FishRaposo/WCP-Compliance-Agent-V5
 - **7 production AI systems** shipped at Expat Money (GPT assistants, RAG workflows, scraping pipelines, automation tools)
 - **LangChain contributor** — production-focused PRs
 
