@@ -27,6 +27,13 @@ Five-service monorepo for WH-347 federal payroll compliance. React 19 · Vercel 
 
 ---
 
+### CostPilot — LLM Cost & Latency Dashboard
+Next.js dashboard for tracking LLM costs, latency, and cache savings by workflow. Built for teams running multiple AI providers who need visibility into what's actually expensive.
+
+[`📂 View Repo`](https://github.com/FishRaposo/costpilot)
+
+---
+
 ### AgentTrace — AI Observability Tooling
 Trace multi-step AI agent executions, log tool calls, measure latency, and debug failures in production. Built for LangGraph/Mastra agent stacks.
 
@@ -46,9 +53,8 @@ Automated recordkeeping, regulatory checks, and audit trail generation for US fe
 | Repo | Description |
 |---|---|
 | [WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5) | Five-service monorepo for WH-347 payroll compliance · 271 tests · React 19 · FastAPI × 2 |
-| [WCP-Compliance-Agent-V3](https://github.com/FishRaposo/WCP-Compliance-Agent-V3) | Archived — predecessor to V5 |
-| [WCP-Compliance-Agent-V2](https://github.com/FishRaposo/WCP-Compliance-Agent-V2) | Archived — TypeScript predecessor to V5 |
 | [compliancelens](https://github.com/FishRaposo/compliancelens) | Compliance automation toolkit — recordkeeping, regulatory checks, audit trails |
+| [costpilot](https://github.com/FishRaposo/costpilot) | LLM cost, latency, and savings dashboard — Next.js + Python + PostgreSQL |
 | [agenttrace](https://github.com/FishRaposo/agenttrace) | Agent tracing and observability tooling for production AI |
 | [super-study](https://github.com/FishRaposo/super-study) | AI learning repo — RAG experiments, agent architectures, LLM evaluation research |
 | [palindrome-checker](https://github.com/FishRaposo/palindrome-checker) | Study project — JS test suite, CI/CD learning |
