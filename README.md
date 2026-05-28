@@ -2,20 +2,6 @@
 
 **AI Reliability Strategist** — I build the systems that work while you don't.
 
-> Most LLM demos look impressive until they meet real users, messy data, edge cases, latency, cost limits, weak retrieval, and broken workflows. The model call works. The system around it collapses.
-
----
-
-## What I Do
-
-I help founders and small teams turn fragile AI prototypes into production-ready systems:
-
-- **RAG pipelines** that retrieve the right context and cite sources
-- **Agent workflows** with clear tool use, failure handling, and human override
-- **Guardrails** that reduce hallucinations, compliance mistakes, and operational risk
-- **Evaluation paths**, observability, and audit trails
-- **Clean architecture** and handoff docs your team can own
-
 ---
 
 ## Featured
@@ -23,7 +9,7 @@ I help founders and small teams turn fragile AI prototypes into production-ready
 ### WCP Compliance Agent V5
 Five-service monorepo for WH-347 federal payroll compliance. React 19 · Vercel AI SDK · FastAPI × 2. **271 tests, 0 failures.** Every compliance decision cites the statute.
 
-[`📂 View Repo`](https://github.com/FishRaposo/WCP-Compliance-Agent-V5) · [`📄 Case Study`](https://fishraposo.github.io/projects/wcp-compliance.html)
+[`📂 View Repo`](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)
 
 ---
 
@@ -79,27 +65,3 @@ Trace multi-step AI agent executions, log tool calls, measure latency, and debug
 | Repo | Description |
 |------|-------------|
 | [palindrome-checker](https://github.com/FishRaposo/palindrome-checker) | Study project — JS test suite, CI/CD learning |
-
----
-
-## Stack
-
-`Python` `TypeScript` `FastAPI` `OpenAI` `Mastra` `LangChain` `LangGraph` `RAG` `PostgreSQL` `pgvector`
-
----
-
-## Proof
-
-- **WCP V5** — Five-service monorepo · 271 tests · every decision cites the statute
-- **7 production AI systems** shipped at Expat Money (GPT assistants, RAG workflows, scraping pipelines, automation tools)
-- **10-repo infrastructure toolkit** — open source, production-focused, built for reliability
-
----
-
-## Connect
-
-- [Portfolio](https://fishraposo.github.io) — case studies and live proof
-- [Upwork](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3) — hire me for AI reliability work
-- [LinkedIn](https://linkedin.com/in/viniciusraposo) — AI reliability thinking
-
-**I don't sell chatbot wrappers. I build the infrastructure underneath them.**
