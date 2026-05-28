@@ -18,7 +18,7 @@ I help founders and small teams turn fragile AI prototypes into production-ready
 
 ---
 
-## Featured Projects
+## Featured
 
 ### WCP Compliance Agent V5
 Five-service monorepo for WH-347 federal payroll compliance. React 19 · Vercel AI SDK · FastAPI × 2. **271 tests, 0 failures.** Every compliance decision cites the statute.
@@ -27,38 +27,58 @@ Five-service monorepo for WH-347 federal payroll compliance. React 19 · Vercel 
 
 ---
 
-### CostPilot — LLM Cost & Latency Dashboard
-Next.js dashboard for tracking LLM costs, latency, and cache savings by workflow. Built for teams running multiple AI providers who need visibility into what's actually expensive.
+### KnowledgeOps Starter Kit
+Open source reference architecture for internal AI knowledge tools: ingestion, grounded retrieval, evaluation, observability, and LLM operations.
 
-[`📂 View Repo`](https://github.com/FishRaposo/costpilot)
-
----
-
-### AgentTrace — AI Observability Tooling
-Trace multi-step AI agent executions, log tool calls, measure latency, and debug failures in production. Built for LangGraph/Mastra agent stacks.
-
-[`📂 View Repo`](https://github.com/FishRaposo/agenttrace)
+[`📂 View Repo`](https://github.com/FishRaposo/10-knowledgeops)
 
 ---
 
-### ComplianceLens — Automation Toolkit
-Automated recordkeeping, regulatory checks, and audit trail generation for US federal payroll and labor law.
+### GroundTruth — RAG Assistant Template
+Production-minded RAG assistant template for teams that need grounded answers, citations, and transparent retrieval behavior.
 
-[`📂 View Repo`](https://github.com/FishRaposo/compliancelens)
+[`📂 View Repo`](https://github.com/FishRaposo/01-groundtruth)
 
 ---
 
-## All Repositories
+### AgentTrace — AI Observability
+Trace multi-step AI agent executions, log tool calls, measure latency, and debug failures in production.
+
+[`📂 View Repo`](https://github.com/FishRaposo/03-agenttrace)
+
+---
+
+## All Public Repositories
+
+### Production AI Infrastructure
 
 | Repo | Description |
-|---|---|
-| [WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5) | Five-service monorepo for WH-347 payroll compliance · 271 tests · React 19 · FastAPI × 2 |
-| [compliancelens](https://github.com/FishRaposo/compliancelens) | Compliance automation toolkit — recordkeeping, regulatory checks, audit trails |
-| [costpilot](https://github.com/FishRaposo/costpilot) | LLM cost, latency, and savings dashboard — Next.js + Python + PostgreSQL |
-| [agenttrace](https://github.com/FishRaposo/agenttrace) | Agent tracing and observability tooling for production AI |
-| [super-study](https://github.com/FishRaposo/super-study) | AI learning repo — RAG experiments, agent architectures, LLM evaluation research |
+|------|-------------|
+| [WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5) | Five-service monorepo · 271 tests · payroll compliance |
+| [10-knowledgeops](https://github.com/FishRaposo/10-knowledgeops) | Knowledge ops starter kit — ingestion, retrieval, evals, observability |
+| [01-groundtruth](https://github.com/FishRaposo/01-groundtruth) | RAG assistant template with grounded answers and citations |
+| [02-evalforge](https://github.com/FishRaposo/02-evalforge) | Evaluation framework for LLM pipelines |
+| [03-agenttrace](https://github.com/FishRaposo/03-agenttrace) | Agent tracing and observability tooling |
+| [04-llm-gateway](https://github.com/FishRaposo/04-llm-gateway) | LLM gateway with routing, fallbacks, and cost controls |
+| [05-docflow](https://github.com/FishRaposo/05-docflow) | Document ingestion pipeline for RAG and knowledge systems |
+| [06-semantic-router](https://github.com/FishRaposo/06-semantic-router) | Semantic routing layer for agentic systems |
+| [07-costpilot](https://github.com/FishRaposo/07-costpilot) | LLM cost, latency, and savings dashboard |
+| [08-compliancelens](https://github.com/FishRaposo/08-compliancelens) | Compliance automation toolkit — recordkeeping, audits |
+| [09-inboxops-ai](https://github.com/FishRaposo/09-inboxops-ai) | Human-in-the-loop workflow automation |
+| [super-study](https://github.com/FishRaposo/super-study) | AI learning repo — RAG experiments, agent architectures |
+
+### Archived (predecessors)
+
+| Repo | Description |
+|------|-------------|
+| [WCP-Compliance-Agent-V3](https://github.com/FishRaposo/WCP-Compliance-Agent-V3) | Archived — predecessor to V5, three-service system |
+| [WCP-Compliance-Agent-V2](https://github.com/FishRaposo/WCP-Compliance-Agent-V2) | Archived — TypeScript predecessor, see V5 |
+
+### Study / Side
+
+| Repo | Description |
+|------|-------------|
 | [palindrome-checker](https://github.com/FishRaposo/palindrome-checker) | Study project — JS test suite, CI/CD learning |
-| [FishRaposo](https://github.com/FishRaposo/FishRaposo) | This profile — AI Reliability Strategist · Production RAG · agent workflows |
 
 ---
 
@@ -72,7 +92,7 @@ Automated recordkeeping, regulatory checks, and audit trail generation for US fe
 
 - **WCP V5** — Five-service monorepo · 271 tests · every decision cites the statute
 - **7 production AI systems** shipped at Expat Money (GPT assistants, RAG workflows, scraping pipelines, automation tools)
-- **271 tests, 0 failures** across the WCP V5 monorepo
+- **10-repo infrastructure toolkit** — open source, production-focused, built for reliability
 
 ---
 
