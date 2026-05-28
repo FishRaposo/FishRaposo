@@ -83,5 +83,3 @@ Automated recordkeeping, regulatory checks, and audit trail generation for US fe
 - [LinkedIn](https://linkedin.com/in/viniciusraposo) — AI reliability thinking
 
 **I don't sell chatbot wrappers. I build the infrastructure underneath them.**
-
-> *Fortuna Audaces Sequitur* — Fortune favors the bold.
