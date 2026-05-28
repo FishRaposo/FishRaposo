@@ -21,7 +21,7 @@ git add -A && git commit -m "[description]" && git push  # end
 - Everything else — supporting assets (badges, icons, images) referenced by README.md.
 
 The README is a living document. Keep it current with:
-- Current role / positioning statement
+- Current role / positioning statement (AI Infrastructure Engineer)
 - Top skills (AI Infrastructure, systems, reliability)
 - Key project highlights with links to live demos/repos
 - Links to portfolio, LinkedIn, Upwork
