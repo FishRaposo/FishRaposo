@@ -69,6 +69,16 @@ Trace agent executions, inspect tool calls, monitor latency, debug failures, and
 
 ---
 
+## EvalForge — Evaluation Framework
+
+Evaluation framework for LLM pipelines. Retrieval quality, answer accuracy, failure mode detection.
+
+If your LLM app has no evals, you have vibes, not reliability.
+
+[`📂 View Repo`](https://github.com/FishRaposo/02-evalforge)
+
+---
+
 # Production AI Infrastructure
 
 | Repo                                                                             | Description                                                                  |
