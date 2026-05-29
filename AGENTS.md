@@ -1,6 +1,6 @@
 # AGENTS.md — FishRaposo GitHub Profile
 
-**This is the GitHub profile README repo.** The `README.md` file is the public GitHub profile page — what visitors see at github.com/FishRaposo. It is a sales and credibility document, not a code repository.
+**This is the GitHub profile README repo.** The `README.md` file is the public GitHub profile page — what visitors see at github.com/FishRaposo.
 
 ---
 
@@ -22,17 +22,17 @@ git add -A && git commit -m "[description]" && git push  # end
 
 The README is a living document. Keep it current with:
 - Current role / positioning statement (AI Infrastructure Engineer)
+- Kicker: "I build the systems that work while you don't."
 - Top skills (AI Infrastructure, systems, reliability)
 - Key project highlights with links to live demos/repos
 - Links to portfolio, LinkedIn, Upwork
-- GitHub stats (stars, commits, contribution graph)
 
 ---
 
 ## Portfolio Hierarchy
 
 ```
-unified-memory (raw) → career-hub (curated) → fishraposo.github.io (polished) → FishRaposo/README (public face)
+career (positioning + strategy) → fishraposo.github.io (polished proof) → FishRaposo/README (public face)
 ```
 
 The profile README is the outermost layer — the one visible to every recruiter, client, and collaborator who visits GitHub. It should be the most concise and highest-signal representation of Vinícius.
@@ -53,6 +53,5 @@ When updating:
 
 ## Related Repos
 
-- `~/fishraposo.github.io` — Full portfolio site (fishraposo.github.io)
-- `~/career-hub` — Career engine (proposals, bios, content)
-- `~/unified-memory` — System memory (events, strategy, lane specs)
+- `~/fishraposo.github.io` — Portfolio (polished proof, repo showcase)
+- `~/career` — Positioning source of truth (POSITIONING.md, bios)
