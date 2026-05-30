@@ -23,107 +23,120 @@ I don't sell chatbot wrappers. I build the infrastructure underneath: retrieval 
 
 ---
 
-## Featured
+## The Five
 
-### WCP Compliance Agent V5
+These five repos form a complete AI infrastructure portfolio. Each one reinforces the same thesis from a different angle:
 
-Five-service monorepo for WH-347 federal payroll compliance.
+> I build production AI infrastructure — from compliance-grade systems to internal knowledge platforms, reliable RAG, evaluation harnesses, and agent observability.
+
+---
+
+### 1. WCP Compliance Agent V5
+
+**Compliance-Grade AI System**
+
+Five-service monorepo for WH-347 federal payroll compliance. Every compliance decision cites the statute.
 
 **React 19 · Vercel AI SDK · FastAPI ×2 · 271 tests · 0 failures**
 
-Every compliance decision cites the statute. Built for traceability, grounded retrieval, and production reliability in compliance-heavy workflows.
+This is the flagship. It proves I can build serious AI systems where correctness, traceability, and reliability matter. Multi-service architecture, deterministic validation, LLM verdict synthesis, trust scoring, auditable persistence, distributed tracing.
+
+> Compliance AI where the LLM explains, but deterministic validation decides.
 
 [`📂 View Repo`](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)
 
 ---
 
-### KnowledgeOps Starter Kit
+### 2. KnowledgeOps Starter Kit
 
-Open-source reference architecture for internal AI knowledge systems.
+**Internal AI Knowledge Platform**
 
-Covers ingestion, grounded retrieval, evaluation pipelines, observability, document workflows, and operational tooling for teams building production AI assistants.
+Reference architecture for internal AI knowledge tools: ingestion, hybrid retrieval with citations, LLM gateway, evaluation service, tracing, cost controls, RBAC, and deployable operations stack.
+
+This turns my portfolio from "a set of projects" into a methodology. Organizational knowledge is infrastructure.
+
+> From scattered company knowledge to operational AI infrastructure.
 
 [`📂 View Repo`](https://github.com/FishRaposo/10-knowledgeops)
 
 ---
 
-### GroundTruth — Production RAG Template
+### 3. GroundTruth
 
-Production-minded RAG assistant template for teams that need grounded answers, transparent retrieval behavior, and source citations users can trust.
+**Production RAG Assistant Template**
+
+Internal assistant template that answers only from uploaded documents, cites sources, refuses when evidence is insufficient, and exposes retrieval traces for debugging.
+
+The clearest client-facing repo. Directly maps to the market problem: "Can we ask questions over our documents and trust the answers?"
+
+> RAG that retrieves, cites, refuses, and can be debugged.
 
 [`📂 View Repo`](https://github.com/FishRaposo/01-groundtruth)
 
 ---
 
-### AgentTrace — AI Observability
+### 4. EvalForge
 
-Observability tooling for multi-step AI workflows.
+**Regression Testing for RAG and Agents**
 
-Trace agent executions, inspect tool calls, monitor latency, debug failures, and understand how AI systems behave in production environments.
+Practical evaluation harness for RAG and agentic AI systems. Tests retrieval correctness, citation quality, refusal behavior, semantic similarity, and regression drift through versioned YAML suites and CI-friendly reports.
 
-[`📂 View Repo`](https://github.com/FishRaposo/03-agenttrace)
+Most people build LLM workflows. Far fewer can test whether those workflows keep working.
 
----
-
-### EvalForge — Evaluation Framework
-
-Evaluation framework for LLM pipelines. Retrieval quality, answer accuracy, failure mode detection.
-
-If your LLM app has no evals, you have vibes, not reliability.
+> I do not just ship AI systems. I measure whether they work.
 
 [`📂 View Repo`](https://github.com/FishRaposo/02-evalforge)
 
 ---
 
-# Production AI Infrastructure
+### 5. AgentTrace
 
-| Repo | Description |
-| ---- | ----------- |
-| [WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5) | Five-service compliance monorepo · grounded retrieval · 271 tests |
-| [10-knowledgeops](https://github.com/FishRaposo/10-knowledgeops) | Knowledge operations starter architecture for internal AI systems |
-| [01-groundtruth](https://github.com/FishRaposo/01-groundtruth) | Production-ready RAG assistant template with grounded retrieval |
-| [02-evalforge](https://github.com/FishRaposo/02-evalforge) | Evaluation framework for testing and validating LLM pipelines |
-| [03-agenttrace](https://github.com/FishRaposo/03-agenttrace) | Observability and tracing for multi-agent AI workflows |
-| [04-llm-gateway](https://github.com/FishRaposo/04-llm-gateway) | LLM gateway with routing, fallbacks, provider abstraction, and cost controls |
+**Observability and Replay for AI Agents**
+
+Lightweight observability layer for agentic AI workflows. Records tool calls, model invocations, intermediate decisions, inputs, outputs, latency, cost, and final results, with replay and dashboard visualization.
+
+Most AI profiles stop at "I can build agents." This goes deeper: "I can trace, replay, debug, and monitor agents in production."
+
+> If an agent fails, you should be able to see why.
+
+[`📂 View Repo`](https://github.com/FishRaposo/03-agenttrace)
+
+---
+
+## The Infrastructure Stack
+
+| Pillar | Repo | What It Shows |
+|--------|------|---------------|
+| Production Architecture | WCP V5 | Multi-service AI system with compliance, tracing, tests, trust scoring |
+| Knowledge Infrastructure | KnowledgeOps | Full internal AI knowledge platform architecture |
+| Grounded Retrieval | GroundTruth | RAG with citations, refusal, retrieval traces |
+| AI Evaluation | EvalForge | Regression testing, citation checks, CI-friendly evals |
+| AI Observability | AgentTrace | Tool-call tracing, replay, latency, cost monitoring |
+
+---
+
+## Supporting Toolkit
+
+| Repo | What It Does |
+|------|-------------|
+| [04-llm-gateway](https://github.com/FishRaposo/04-llm-gateway) | LLM gateway with routing, fallbacks, provider abstraction, cost controls |
 | [05-docflow](https://github.com/FishRaposo/05-docflow) | Document ingestion and processing pipeline for RAG systems |
 | [06-semantic-router](https://github.com/FishRaposo/06-semantic-router) | Semantic routing layer for multi-agent and operational AI systems |
 | [07-costpilot](https://github.com/FishRaposo/07-costpilot) | Cost, latency, and token observability dashboard for LLM operations |
-| [08-compliancelens](https://github.com/FishRaposo/08-compliancelens) | Compliance automation toolkit for audits, records, and operational review |
+| [08-compliancelens](https://github.com/FishRaposo/08-compliancelens) | Compliance automation toolkit for audits, records, operational review |
 | [09-inboxops-ai](https://github.com/FishRaposo/09-inboxops-ai) | Human-in-the-loop workflow automation for operational pipelines |
-| [super-study](https://github.com/FishRaposo/super-study) | AI systems research repo · RAG experiments · agent orchestration studies |
 
 ---
 
-# Archived Systems
+## Archived
 
-| Repo | Description |
-| ---- | ----------- |
-| [WCP-Compliance-Agent-V3](https://github.com/FishRaposo/WCP-Compliance-Agent-V3) | Archived predecessor to V5 · three-service architecture |
-| [WCP-Compliance-Agent-V2](https://github.com/FishRaposo/WCP-Compliance-Agent-V2) | Archived TypeScript predecessor · early monolithic implementation |
-
----
-
-# Study / Side Projects
-
-| Repo | Description |
-| ---- | ----------- |
-| [palindrome-checker](https://github.com/FishRaposo/palindrome-checker) | Study project · testing, CI/CD, and JavaScript workflow practice |
+| Repo | Notes |
+|------|-------|
+| [WCP-Compliance-Agent-V3](https://github.com/FishRaposo/WCP-Compliance-Agent-V3) | Predecessor to V5 · three-service architecture |
+| [WCP-Compliance-Agent-V2](https://github.com/FishRaposo/WCP-Compliance-Agent-V2) | TypeScript predecessor · early monolithic implementation |
 
 ---
 
-# Current Focus
-
-* Production RAG systems
-* AI observability and evaluation
-* Agent workflow orchestration
-* Retrieval reliability
-* Operational AI tooling
-* Human-in-the-loop systems
-* LLM infrastructure and gateways
-* AI workflow automation
-
----
-
-# Contact
+## Contact
 
 Send me your broken AI workflow. I'll tell you what's breaking, why it's breaking, and the fastest path to a system your team can actually depend on.
