@@ -55,7 +55,7 @@ This is the playbook. Every other repo in this portfolio plugs into the patterns
 
 > From scattered company knowledge to operational AI infrastructure.
 
-[`View Repo`](https://github.com/FishRaposo/10-knowledgeops)
+[`View Repo`](https://github.com/FishRaposo/knowledgeops)
 
 ---
 
@@ -69,7 +69,7 @@ Internal assistant template. Production-ready. No vibes-based retrieval.
 
 > RAG that retrieves, cites, refuses, and can be debugged.
 
-[`View Repo`](https://github.com/FishRaposo/01-groundtruth)
+[`View Repo`](https://github.com/FishRaposo/groundtruth)
 
 ---
 
@@ -83,7 +83,7 @@ Your LLM app changes every time you update a prompt, swap a model, or touch your
 
 > I do not just ship AI systems. I measure whether they work.
 
-[`View Repo`](https://github.com/FishRaposo/02-evalforge)
+[`View Repo`](https://github.com/FishRaposo/evalforge)
 
 ---
 
@@ -97,7 +97,7 @@ Most AI profiles stop at "I can build agents." This goes deeper: "I can trace, r
 
 > If an agent fails, you should be able to see why.
 
-[`View Repo`](https://github.com/FishRaposo/03-agenttrace)
+[`View Repo`](https://github.com/FishRaposo/agenttrace)
 
 ---
 
@@ -111,7 +111,7 @@ Every production system with multiple LLM calls eventually needs this. Better to
 
 > Your LLM calls need a bouncer. This is it.
 
-[`View Repo`](https://github.com/FishRaposo/04-llm-gateway)
+[`View Repo`](https://github.com/FishRaposo/llm-gateway)
 
 ---
 
@@ -123,18 +123,6 @@ Every production system with multiple LLM calls eventually needs this. Better to
 - **AI Evaluation** — EvalForge — Regression testing, citation checks, semantic similarity, CI-friendly eval suites
 - **AI Observability** — AgentTrace — Tool-call tracing, replay, latency, cost monitoring for agentic workflows
 - **LLM Routing & Control** — LLM Gateway — Provider abstraction, fallback, guardrails, cost controls
-
----
-
-## Supporting Toolkit
-
-- [05-docflow](https://github.com/FishRaposo/05-docflow) — Document ingestion and processing pipeline for RAG systems
-- [06-semantic-router](https://github.com/FishRaposo/06-semantic-router) — Semantic routing layer for multi-agent and operational AI systems
-- [07-costpilot](https://github.com/FishRaposo/07-costpilot) — Cost, latency, and token observability dashboard for LLM operations
-- [08-compliancelens](https://github.com/FishRaposo/08-compliancelens) — Compliance automation toolkit for audits, records, operational review
-- [09-inboxops-ai](https://github.com/FishRaposo/09-inboxops-ai) — Human-in-the-loop workflow automation for operational pipelines
-
----
 
 ## Archived
 
