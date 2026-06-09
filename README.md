@@ -2,6 +2,8 @@
 
 **AI Infrastructure Engineer** — I build the systems that work while you don't.
 
+> **Last updated: 2026-06-09.** Currently focused on production RAG, AI evaluation, and observability. Open to consulting and contract work.
+
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
 This isn't cost arbitrage. It's engineering arbitrage.
@@ -31,11 +33,9 @@ Six repos. One thesis: production AI is mostly systems engineering wearing an AI
 
 **The one that pays fines if I get it wrong.**
 
-Five-service monorepo for WH-347 federal payroll compliance. React 19, Vercel AI SDK, FastAPI x2. 271 tests. 0 failures. Every compliance decision cites the statute.
+Five-service monorepo for WH-347 federal payroll compliance. React 19, Vercel AI SDK, FastAPI x2. 253 tests, 0 failures. Every compliance decision cites the statute.
 
-This is the flagship because it proves the hardest thing in AI: building systems where correctness is non-negotiable. The LLM explains. Deterministic validation decides. If the model hallucinates a wage interpretation, the code catches it before anyone files the wrong form.
-
-Trust scoring. Auditable persistence. Distributed tracing. The boring parts that make the system actually run.
+The LLM explains. Deterministic validation decides. If the model hallucinates a wage interpretation, the code catches it before anyone files the wrong form.
 
 > Compliance AI where the LLM explains, but deterministic validation decides.
 
@@ -47,9 +47,9 @@ Trust scoring. Auditable persistence. Distributed tracing. The boring parts that
 
 **Most agent frameworks optimize for flexibility. Production needs control.**
 
-A lightweight framework for controlled AI agents: Pydantic-validated tool calls (every argument checked before execution, not after), human-in-the-loop approval gates for high-risk actions, bounded conversation memory, and per-turn audit trails. Built on shared infrastructure, designed to fail safe.
+A lightweight framework for controlled AI agents: Pydantic-validated tool calls (every argument checked before execution, not after), human-in-the-loop approval gates for high-risk actions, bounded conversation memory, and per-turn audit trails. Built on a shared Python foundation, designed to fail safe.
 
-The interesting engineering here is what's *not* allowed: arbitrary tool calls, unbounded context growth, silent auto-execution of side effects. Aria shows how a real agent system enforces constraints — the kind of engineering production AI needs but demo frameworks skip.
+The interesting engineering is what's *not* allowed: arbitrary tool calls, unbounded context growth, silent auto-execution of side effects. Aria shows how a real agent system enforces constraints — the kind of engineering production AI needs but demo frameworks skip.
 
 > Schema-enforced tools, gated execution, traceable turns. Agent infrastructure that doesn't trust the LLM.
 
@@ -61,7 +61,7 @@ The interesting engineering here is what's *not* allowed: arbitrary tool calls, 
 
 **"Is our RAG actually working?" is the question nobody can answer.**
 
-A testing harness that measures RAG pipelines quantitatively: retrieval hit-rate (are the right chunks coming back?), MRR (how high do they rank?), answer faithfulness (is the answer supported by retrieved context?), citation coverage (do the citations reference real sources?), latency, and cost. Versioned golden question sets, automated scoring, markdown reports. CI-friendly.
+A testing harness for measuring RAG pipeline quality: retrieval hit-rate (do the right chunks come back?), answer groundedness (is the answer supported by retrieved context?), versioned golden question sets, automated scoring, and markdown reports. CI-friendly.
 
 Every prompt change, model swap, or chunking tweak can silently break retrieval. Without evals, you discover the breakage from users. With them, you see it in the CI report before deploy.
 
@@ -89,9 +89,9 @@ A single prompt experiment can cost dollars. Latency varies wildly across models
 
 **The boring 80% of issues can be automated. The safety boundary is the hard part.**
 
-An autonomous agent that reads labeled GitHub issues, plans the change, edits code in a sandboxed repo, runs the test suite, and opens a draft pull request. Every action is allowlisted — no secret access, no main-branch pushes, no auto-merges. Drafts only. Humans review, humans merge.
+An autonomous agent that reads labeled GitHub issues, generates a plan, edits code in a sandbox, runs the test suite, and opens a draft pull request. Blocklist-based path safety (extensions + critical files), a JSONL audit trail for every action, draft PRs only — no auto-merge, no main-branch pushes, no merge. The sandbox runs the agent; the human stays in control.
 
-The interesting engineering is the safety surface: what the agent *cannot* do. Allowlisted repositories, allowlisted file paths, audit trails for every tool call, gated PR creation on test results. The agent bridges "issue filed" to "draft PR ready for review" without ever crossing the trust boundary.
+The interesting engineering is what the agent *cannot* do. It's the difference between an automation that helps your team and one that ships surprises.
 
 > The tool I wish I had for the other 80% of the work.
 
@@ -101,11 +101,11 @@ The interesting engineering is the safety surface: what the agent *cannot* do. A
 
 ### 6. Operator Shared Core
 
-**Twelve Python services, one foundation library. Consistency by construction.**
+**The day you have five microservices with five different config patterns, five different error structures, and five different logging formats is the day this library matters.**
 
-The shared library that powers every Python service in the operator-systems portfolio: Pydantic-based configuration loading, SQLAlchemy 2.0 sync + async database managers, lazy Redis with distributed locks, structured Loguru logging with correlation IDs, a 10-exception typed error hierarchy, async HTTP client with retry, LLM client factory, Celery bootstrap, Prometheus metrics, and in-memory testing mocks.
+A shared Python library powering every service in the operator-systems portfolio: Pydantic-based configuration loading, SQLAlchemy 2.0 sync + async database managers, lazy Redis with distributed locks, structured Loguru logging with correlation IDs, a 10-exception typed error hierarchy, async HTTP client with retry, LLM client factory, Celery bootstrap, Prometheus metrics, and in-memory testing mocks. 12 modules. 39 unit tests.
 
-Any improvement to the foundation automatically propagates to every consumer. Every project starts with the same config patterns, the same error structures, the same logging output. Inconsistency across a portfolio of services is the fastest way to make it look like an accident instead of a system.
+Any improvement to the foundation automatically propagates to every consumer. Inconsistency across a portfolio of services is the fastest way to make it look like an accident instead of a system.
 
 > The infrastructure underneath the infrastructure.
 
@@ -113,25 +113,9 @@ Any improvement to the foundation automatically propagates to every consumer. Ev
 
 ---
 
-## The Infrastructure Stack
-
-- **Production Case Study** — WCP V5 — Multi-service compliance AI with deterministic validation, trust scoring, 271 tests, every decision cites the statute
-- **Agent Framework** — Aria Agent — Controlled agents with Pydantic tools, approval gates, bounded memory, audit trails
-- **RAG Evaluation** — RAG Evaluation Lab — Quantitative RAG scoring: hit-rate, MRR, faithfulness, citation coverage, CI-friendly reports
-- **LLM Observability** — LLM Cost & Latency Monitor — Token costs, latency, per-request telemetry, self-hosted
-- **Agent in Production** — GitHub Issue-to-PR Agent — Autonomous issue-to-draft-PR with allowlisted safety boundaries
-- **Shared Foundation** — Operator Shared Core — The library every Python service in the portfolio imports
-
 ## The Broader Portfolio
 
-Beyond the six anchors, the [operator-systems showcase portfolio](https://github.com/FishRaposo/operator-shared-core/blob/main/docs/workspace-map.md) includes 6 more specialized services (document intelligence, knowledge bases, workflow orchestration, customer support simulation, real-time analytics) all built on the same shared foundation. They're the breadth — The Six above is the depth.
-
-## Archived
-
-- [WCP-Compliance-Agent-V3](https://github.com/FishRaposo/WCP-Compliance-Agent-V3) — Predecessor to V5, three-service architecture
-- [WCP-Compliance-Agent-V2](https://github.com/FishRaposo/WCP-Compliance-Agent-V2) — TypeScript predecessor, early monolithic implementation
-
----
+Beyond the six anchors, the [operator-systems showcase portfolio](https://github.com/FishRaposo/operator-shared-core/blob/main/docs/workspace-map.md) includes 5 more specialized Python services — document intelligence, knowledge bases, workflow orchestration, customer support simulation, and real-time analytics — plus a project scaffold and one experimental TypeScript sandbox. All built on the same shared foundation. They're the breadth — The Six above is the depth.
 
 ## Contact
 
