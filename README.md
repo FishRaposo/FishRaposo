@@ -4,6 +4,10 @@
 
 Building AI, sound money, and individual sovereignty.
 
+> **Twenty years of the same idea, expressed four different ways.**
+>
+> I build income with AI, store value in crypto, reason through economics, and started it all with a story about dinosaurs.
+
 > **Last updated: 2026-06-09.** Shipping on production RAG, AI evaluation, and observability. Available for consulting and contract work.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.

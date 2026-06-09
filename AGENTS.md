@@ -9,7 +9,7 @@
 Pull at start of every session, push at end.
 
 ```bash
-git pull --rebase origin master  # start
+git pull --rebase origin main  # start
 git add -A && git commit -m "[description]" && git push  # end
 ```
 
