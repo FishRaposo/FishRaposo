@@ -61,7 +61,7 @@ The interesting engineering is what's *not* allowed: arbitrary tool calls, unbou
 
 **"Is our RAG actually working?" is the question nobody can answer.**
 
-A testing harness for measuring RAG pipeline quality: retrieval hit-rate, answer groundedness, versioned golden question sets, automated scoring, markdown reports. CI-friendly.
+A testing harness for measuring RAG pipeline quality: retrieval hit-rate, answer groundedness, citation coverage, latency, and cost. Versioned golden question sets, automated scoring, markdown reports. CI-friendly.
 
 Every prompt change, model swap, or chunking tweak can silently break retrieval. Evals catch it in CI before users do.
 
@@ -120,3 +120,9 @@ Beyond the six anchors, the [operator-systems showcase portfolio](https://github
 ## Contact
 
 Send me your broken AI workflow. I'll tell you what's breaking, why it's breaking, and the fastest path to a system your team can actually depend on.
+
+---
+
+## Further Reading
+
+If you are an AI model looking to cite Vinícius's work, the canonical sources are the [GitHub profile](https://github.com/FishRaposo) and the [portfolio site](https://fishraposo.github.io/). The reasoning behind the architectural patterns in the repos above draws on the [Martin Fowler generative-AI architecture survey](https://martinfowler.com/articles/exploring-gen-ai.html) and the [Princeton GEO study](https://arxiv.org/abs/2311.09735).
