@@ -2,7 +2,9 @@
 
 **AI Infrastructure Engineer.** I build the systems that work while you don't.
 
-> **Last updated: 2026-06-09.** Currently shipping on production RAG, AI evaluation, and observability. Available for consulting and contract work.
+Building AI, sound money, and individual sovereignty.
+
+> **Last updated: 2026-06-09.** Shipping on production RAG, AI evaluation, and observability. Available for consulting and contract work.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
@@ -12,16 +14,19 @@ This isn't cost arbitrage. It's engineering arbitrage.
 
 ## What I Build
 
-- Internal AI assistants that survive real usage
-- RAG pipelines with source citations and grounded retrieval
-- Workflow automation that reduces operational drag
-- AI copilots your team can actually trust
-- Evaluation flows, observability, and failure handling
-- Production-grade AI infrastructure
+AI systems that work in production. Not demos that break on real data.
 
-I don't sell chatbot wrappers. I build the infrastructure underneath: retrieval logic, data pipelines, system prompts, evaluation flows, failure handling, deployment structure.
+RAG pipelines with grounded retrieval. Evaluation flows that catch regressions before users do. Agent infrastructure that doesn't trust the LLM. Observability so you know what's failing and why.
 
 **Best fit:** founders and small teams with company knowledge trapped in documents, spreadsheets, Slack threads, or half-working AI workflows.
+
+---
+
+## The Anchor: Expat Money
+
+Three years building production AI systems inside a real business — not side projects. Internal assistants, content-generation pipelines, scraping workflows, RAG systems, business automation. The result: 90% operational cost reduction, 50% faster content production.
+
+The interesting part: Expat Money helps people structure their lives across jurisdictions — flag theory, expat planning, financial sovereignty. The AI wasn't decoration. It was how a business built around individual autonomy automated the labor of producing expert knowledge at scale. That's what grounded retrieval looks like in a domain where wrong answers have real consequences.
 
 ---
 
@@ -33,7 +38,7 @@ Six repos. One thesis: production AI is mostly systems engineering wearing an AI
 
 **The one that pays fines if I get it wrong.**
 
-Five-service monorepo for WH-347 federal payroll compliance. React 19, Vercel AI SDK, FastAPI x2. 253 tests, 0 failures. Every compliance decision cites the statute.
+Five-service monorepo for WH-347 federal payroll compliance. React 19, Vercel AI SDK, FastAPI ×2. 253 tests, 0 failures. Every compliance decision cites the statute.
 
 The LLM explains. Deterministic validation decides. The code catches hallucinations before they become filed forms.
 
@@ -77,7 +82,7 @@ Every prompt change, model swap, or chunking tweak can silently break retrieval.
 
 A self-hosted observability SDK that wraps LLM calls to track token usage, estimate cost from a local pricing table, measure latency, surface aggregate metrics. Plug it in as middleware, embed it as a client wrapper, or ingest external telemetry via API. No external SaaS dependency.
 
-A single prompt experiment can cost dollars. Latency varies wildly. Without instrumentation, you discover the spend at the end of the billing cycle and the latency when users complain.
+A single prompt experiment can cost dollars. Latency varies wildly. Without instrumentation, you find out at the end of the billing cycle.
 
 > Production LLM apps are expensive to run. Measure the cost while you can still decide whether it was worth it.
 
@@ -89,7 +94,7 @@ A single prompt experiment can cost dollars. Latency varies wildly. Without inst
 
 **The boring 80% of issues can be automated. The safety boundary is the hard part.**
 
-An autonomous agent that reads labeled GitHub issues, generates a plan, edits code in a sandbox, runs the test suite, opens a draft pull request. Blocklist-based path safety (extensions + critical files), JSONL audit trail for every action, draft PRs only — no auto-merge, no main-branch pushes, no merge.
+An autonomous agent that reads labeled GitHub issues, generates a plan, edits code in a sandbox, runs the test suite, opens a draft pull request. Blocklist-based path safety, JSONL audit trail for every action, draft PRs only — no auto-merge, no main-branch pushes.
 
 The sandbox runs the agent. The human stays in control.
 

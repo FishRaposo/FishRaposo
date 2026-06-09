@@ -54,4 +54,4 @@ When updating:
 ## Related Repos
 
 - `~/fishraposo.github.io` — Portfolio (polished proof, repo showcase)
-- `~/career` — Positioning source of truth (POSITIONING.md, bios)
+- `~/career` — Positioning source of truth (POSITIONING.md)
