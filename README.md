@@ -1,8 +1,8 @@
 # Vinícius Raposo (FishRaposo)
 
-**AI Infrastructure Engineer** — I build the systems that work while you don't.
+**AI Infrastructure Engineer.** I build the systems that work while you don't.
 
-> **Last updated: 2026-06-09.** Currently focused on production RAG, AI evaluation, and observability. Open to consulting and contract work.
+> **Last updated: 2026-06-09.** Currently shipping on production RAG, AI evaluation, and observability. Available for consulting and contract work.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
@@ -19,7 +19,7 @@ This isn't cost arbitrage. It's engineering arbitrage.
 - Evaluation flows, observability, and failure handling
 - Production-grade AI infrastructure
 
-I don't sell chatbot wrappers. I build the infrastructure underneath: retrieval logic, data pipelines, system prompts, evaluation flows, failure handling, and deployment structure.
+I don't sell chatbot wrappers. I build the infrastructure underneath: retrieval logic, data pipelines, system prompts, evaluation flows, failure handling, deployment structure.
 
 **Best fit:** founders and small teams with company knowledge trapped in documents, spreadsheets, Slack threads, or half-working AI workflows.
 
@@ -35,7 +35,7 @@ Six repos. One thesis: production AI is mostly systems engineering wearing an AI
 
 Five-service monorepo for WH-347 federal payroll compliance. React 19, Vercel AI SDK, FastAPI x2. 253 tests, 0 failures. Every compliance decision cites the statute.
 
-The LLM explains. Deterministic validation decides. If the model hallucinates a wage interpretation, the code catches it before anyone files the wrong form.
+The LLM explains. Deterministic validation decides. The code catches hallucinations before they become filed forms.
 
 > Compliance AI where the LLM explains, but deterministic validation decides.
 
@@ -47,9 +47,9 @@ The LLM explains. Deterministic validation decides. If the model hallucinates a 
 
 **Most agent frameworks optimize for flexibility. Production needs control.**
 
-A lightweight framework for controlled AI agents: Pydantic-validated tool calls (every argument checked before execution, not after), human-in-the-loop approval gates for high-risk actions, bounded conversation memory, and per-turn audit trails. Built on a shared Python foundation, designed to fail safe.
+A lightweight framework for controlled AI agents: Pydantic-validated tool calls (every argument checked before execution), human-in-the-loop approval gates for high-risk actions, bounded conversation memory, and per-turn audit trails. Built on a shared Python foundation, designed to fail safe.
 
-The interesting engineering is what's *not* allowed: arbitrary tool calls, unbounded context growth, silent auto-execution of side effects. Aria shows how a real agent system enforces constraints — the kind of engineering production AI needs but demo frameworks skip.
+The interesting engineering is what's *not* allowed: arbitrary tool calls, unbounded context, silent side-effect execution.
 
 > Schema-enforced tools, gated execution, traceable turns. Agent infrastructure that doesn't trust the LLM.
 
@@ -61,9 +61,9 @@ The interesting engineering is what's *not* allowed: arbitrary tool calls, unbou
 
 **"Is our RAG actually working?" is the question nobody can answer.**
 
-A testing harness for measuring RAG pipeline quality: retrieval hit-rate (do the right chunks come back?), answer groundedness (is the answer supported by retrieved context?), versioned golden question sets, automated scoring, and markdown reports. CI-friendly.
+A testing harness for measuring RAG pipeline quality: retrieval hit-rate, answer groundedness, versioned golden question sets, automated scoring, markdown reports. CI-friendly.
 
-Every prompt change, model swap, or chunking tweak can silently break retrieval. Without evals, you discover the breakage from users. With them, you see it in the CI report before deploy.
+Every prompt change, model swap, or chunking tweak can silently break retrieval. Evals catch it in CI before users do.
 
 > I do not just ship RAG systems. I measure whether they work.
 
@@ -75,9 +75,9 @@ Every prompt change, model swap, or chunking tweak can silently break retrieval.
 
 **You should know what a prompt costs before the invoice arrives.**
 
-A self-hosted observability SDK that wraps LLM calls to track token usage, estimate cost from a local pricing table, measure latency, and surface aggregate metrics. Plug it in as middleware, embed it as a client wrapper, or ingest external telemetry via API. No external SaaS dependency, no data leaving your infrastructure.
+A self-hosted observability SDK that wraps LLM calls to track token usage, estimate cost from a local pricing table, measure latency, surface aggregate metrics. Plug it in as middleware, embed it as a client wrapper, or ingest external telemetry via API. No external SaaS dependency.
 
-A single prompt experiment can cost dollars. Latency varies wildly across models and prompt lengths. Without instrumentation, you're discovering your spend at the end of the billing cycle and your latency when users complain.
+A single prompt experiment can cost dollars. Latency varies wildly. Without instrumentation, you discover the spend at the end of the billing cycle and the latency when users complain.
 
 > Production LLM apps are expensive to run. Measure the cost while you can still decide whether it was worth it.
 
@@ -89,9 +89,9 @@ A single prompt experiment can cost dollars. Latency varies wildly across models
 
 **The boring 80% of issues can be automated. The safety boundary is the hard part.**
 
-An autonomous agent that reads labeled GitHub issues, generates a plan, edits code in a sandbox, runs the test suite, and opens a draft pull request. Blocklist-based path safety (extensions + critical files), a JSONL audit trail for every action, draft PRs only — no auto-merge, no main-branch pushes, no merge. The sandbox runs the agent; the human stays in control.
+An autonomous agent that reads labeled GitHub issues, generates a plan, edits code in a sandbox, runs the test suite, opens a draft pull request. Blocklist-based path safety (extensions + critical files), JSONL audit trail for every action, draft PRs only — no auto-merge, no main-branch pushes, no merge.
 
-The interesting engineering is what the agent *cannot* do. It's the difference between an automation that helps your team and one that ships surprises.
+The sandbox runs the agent. The human stays in control.
 
 > The tool I wish I had for the other 80% of the work.
 
@@ -103,9 +103,9 @@ The interesting engineering is what the agent *cannot* do. It's the difference b
 
 **The day you have five microservices with five different config patterns, five different error structures, and five different logging formats is the day this library matters.**
 
-A shared Python library powering every service in the operator-systems portfolio: Pydantic-based configuration loading, SQLAlchemy 2.0 sync + async database managers, lazy Redis with distributed locks, structured Loguru logging with correlation IDs, a 10-exception typed error hierarchy, async HTTP client with retry, LLM client factory, Celery bootstrap, Prometheus metrics, and in-memory testing mocks. 12 modules. 39 unit tests.
+A shared Python library powering every service in the operator-systems portfolio: Pydantic-based configuration loading, SQLAlchemy 2.0 sync + async database managers, lazy Redis with distributed locks, structured Loguru logging with correlation IDs, a 10-exception typed error hierarchy, async HTTP client with retry, LLM client factory, Celery bootstrap, Prometheus metrics, in-memory testing mocks. 12 modules.
 
-Any improvement to the foundation automatically propagates to every consumer. Inconsistency across a portfolio of services is the fastest way to make it look like an accident instead of a system.
+An improvement to the foundation propagates to every consumer. Inconsistency is the fastest way to make a portfolio look like an accident.
 
 > The infrastructure underneath the infrastructure.
 
@@ -115,7 +115,7 @@ Any improvement to the foundation automatically propagates to every consumer. In
 
 ## The Broader Portfolio
 
-Beyond the six anchors, the [operator-systems showcase portfolio](https://github.com/FishRaposo/operator-shared-core/blob/main/docs/workspace-map.md) includes 5 more specialized Python services — document intelligence, knowledge bases, workflow orchestration, customer support simulation, and real-time analytics — plus a project scaffold and one experimental TypeScript sandbox. All built on the same shared foundation. They're the breadth — The Six above is the depth.
+Beyond the six anchors, the [operator-systems showcase portfolio](https://github.com/FishRaposo/operator-shared-core/blob/main/docs/workspace-map.md) includes 5 more specialized Python services — document intelligence, knowledge bases, workflow orchestration, customer support simulation, real-time analytics — plus a project scaffold and one experimental TypeScript sandbox. All built on the same shared foundation. They're the breadth — The Six above is the depth.
 
 ## Contact
 
