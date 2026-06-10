@@ -34,6 +34,32 @@ The interesting part: Expat Money helps people structure their lives across juri
 
 ---
 
+## Currently Shipping
+
+Two repos lead the portfolio right now. Each one proves the same thesis from a different angle.
+
+### Aria Agent — the framework
+
+**Production AI needs a router, not just a framework.**
+
+A cross-provider model router with v0.4 sub-agent roles. Nine specialists (planner, architect, implementer, debugger, documenter, reviewer, tester, validator, researcher) — each backed by a model picked for that specific kind of work. Three execution paths: a local tool call (<1 ms, $0), a routed model call with cascade / plan-execute-validate / ensemble cooperation, or a parallel/sequential fan-out of sub-agents. FastAPI gateway. 131 tests. Real cost tracking. Runs on Termux out of the box.
+
+The interesting engineering: every role gets a different model. Specialists beat generalists for specialty work. The registry's `resolve_decision` ensures every pick is callable on the user's plan, not just listed in the catalog.
+
+[`View Repo`](https://github.com/FishRaposo/aria-agent)
+
+### WCP Compliance Agent V5 — the proof
+
+**The one that pays fines if I get it wrong.**
+
+Five-service monorepo for WH-347 federal payroll compliance. React 19, Vercel AI SDK, FastAPI ×2. 253 tests, 0 failures. Every compliance decision cites the statute.
+
+The LLM explains. Deterministic validation decides. The code catches hallucinations before they become filed forms.
+
+[`View Repo`](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)
+
+---
+
 ## The Six
 
 Six repos. One thesis: production AI is mostly systems engineering wearing an AI costume. Each one proves the same point from a different angle.
@@ -56,9 +82,9 @@ The LLM explains. Deterministic validation decides. The code catches hallucinati
 
 **Most agent frameworks optimize for flexibility. Production needs control.**
 
-A lightweight framework for controlled AI agents: Pydantic-validated tool calls (every argument checked before execution), human-in-the-loop approval gates for high-risk actions, bounded conversation memory, and per-turn audit trails. Built on a shared Python foundation, designed to fail safe.
+A cross-provider model router with 9 specialist sub-agent roles — planner, architect, implementer, debugger, documenter, reviewer, tester, validator, researcher. Each role gets a model picked for that kind of work: planner/architect → kimi-k2.6 (deep reasoning), implementer → MiniMax-M3 (production code), debugger → deepseek-v4-pro (long-context analysis, when on plan) or kimi-k2.6 (Go plan fallback). 3 cooperation patterns: cascade, plan-execute-validate, ensemble. FastAPI gateway, 131 tests, real cost tracking, Termux-ready.
 
-The interesting engineering is what's *not* allowed: arbitrary tool calls, unbounded context, silent side-effect execution.
+The interesting part: the framework decides which model to call, not the caller. The registry resolves every pick to a *callable* model — if the preferred one isn't on the user's plan, it falls back through the decision chain to the next registered model. Specialists beat generalists for specialty work.
 
 > Schema-enforced tools, gated execution, traceable turns. Agent infrastructure that doesn't trust the LLM.
 
