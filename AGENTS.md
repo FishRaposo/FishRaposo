@@ -53,5 +53,9 @@ When updating:
 
 ## Related Repos
 
-- `~/fishraposo.github.io` — Portfolio (polished proof, repo showcase)
-- `~/career` — Positioning source of truth (POSITIONING.md)
+These are sibling repos under the same workspace folder (`Career Hub/`), not separate checkouts:
+
+- `../fishraposo.github.io/` — Portfolio (polished proof, repo showcase)
+- `../career/` — Positioning source of truth (`POSITIONING.md`, `Main Docs/`)
+
+See the workspace-root `../AGENTS.md` for how the three repos relate and which layer wins on conflict.
