@@ -23,10 +23,10 @@ git add -A && git commit -m "[description]" && git push  # end
 **Terminology:** when Vinícius says "career hub," he means the interconnected trio `career` + `fishraposo.github.io` + `FishRaposo`. Do **not** restore or use the old deleted `career-hub` repo as active canon.
 
 The README is a living document. Keep it current with:
+- Big 6 showcase — catallaxy, understudy, groundwork, proof-of-cost, sound-money, operator-os; WCP V5 and Aria Agent are shipped proof, not the organizing grid
 - Positioning statement — lead with the operator statement + thesis, never a job title (per doc1 §0)
 - Kicker: "I build the systems that work while you don't."
-- Top skills (production AI systems, reliability, evaluation, observability)
-- Key project highlights with links to live demos/repos
+- Proof anchors (Expat Money first; WCP V5 and Aria Agent as shipped code proof)
 - Links to portfolio, LinkedIn, Upwork
 
 ---
