@@ -55,7 +55,7 @@ When updating:
 
 ## Related Repos
 
-These are sibling repos under the same workspace folder (`Career Hub/`), not separate checkouts:
+These are sibling repos in the active career-hub trio, not a separate `career-hub` checkout:
 
 - `../fishraposo.github.io/` — Portfolio (polished proof, repo showcase)
 - `../career/` — Positioning source of truth (`POSITIONING.md`, `Main Docs/`)
