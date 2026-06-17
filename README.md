@@ -51,7 +51,7 @@ Six systems, one per field across the three execution binaries. They are build-i
 
 These are the existing repos I would inspect first.
 
-- **[WCP-Compliance-Agent-V5](https://fishraposo.github.io/projects/wcp-compliance-agent-v5.html)** — Compliance AI where deterministic validation decides and the LLM explains.
+- **[WCP-Compliance-Agent-V5](https://fishraposo.github.io/projects/wcp-compliance-agent-v5.html)** — Production-ready WH-347 compliance platform: deterministic validation decides, the LLM explains, and every decision is traceable.
 - **[aria-agent](https://fishraposo.github.io/projects/aria-agent.html)** — Controlled AI agent framework and conceptual ancestor of understudy.
 - **[groundtruth](https://fishraposo.github.io/projects/groundtruth.html)** — Grounded document QA / RAG proof with citations and approval workflows.
 - **[llm-gateway](https://fishraposo.github.io/projects/llm-gateway.html)** — LLM proxy with routing, guardrails, cost control, and fallback.
