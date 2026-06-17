@@ -8,7 +8,7 @@ Building AI, sound money, and individual sovereignty.
 >
 > I build income with AI, store value in crypto, reason through economics, and started it all with a story about dinosaurs.
 
-> **Last updated: 2026-06-16.** Rebuilding the public portfolio around the Big 6: six systems, one per field of how I think; each a useful tool, a showcase, and a stated view.
+> **Last updated: 2026-06-16.** Public GitHub now has 24 repos. The Big 6 is the WIP direction; the shipped/high-signal repos below are the current proof.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
@@ -34,87 +34,47 @@ The interesting part: Expat Money helps people structure their lives across juri
 
 ---
 
-## The Big 6
+## The Big 6 — WIP Direction
 
-Six repos, one per field across the three execution binaries. Each is a view, a useful tool, and a flagship showcase project.
+Six systems, one per field across the three execution binaries. They are build-in-public concepts until their repos exist and contain code.
 
-Most are design-stage by intent. The public posture is build-in-public: show the view and spec honestly, then ship the code in the open. No fake finished claims. No empty repo framed as proof.
-
-### 1. catallaxy — Economics
-
-**The Calculation Lab.**
-
-The knowledge problem, simulated: a central planner and a free market trying to allocate resources in the same toy economy.
-
-**Proves:** the knowledge problem is computable.
-
-### 2. understudy — AI
-
-**The Glass Box.**
-
-A local-first AI operator that runs your work without you and without lock-in: visible plans, state, traces, costs, approval gates, and rollback points.
-
-**Proves:** AI that runs without you, not against you.
-
-### 3. groundwork — Data
-
-**Corpus Autopsy.**
-
-A local data preparation and provenance layer for inspecting, cleaning, chunking, and grounding private knowledge before an AI system uses it.
-
-**Proves:** clean local data precedes grounded AI.
-
-### 4. proof-of-cost — Crypto
-
-**Real-Yield Calculator → Verdict Gallery.**
-
-A transparent calculator for net yield after every cost and constraint: energy, fees, withdrawals, custody, slippage, taxes, and jurisdictional assumptions.
-
-**Proves:** mechanism over narrative.
-
-### 5. sound-money — Finances
-
-**The Time Machine.**
-
-A purchasing-power simulator that compares wages, savings, prices, and investments across units of account.
-
-**Proves:** the unit of account is the variable.
-
-### 6. operator-os — Entrepreneurship
-
-**The Operating Console.**
-
-A one-person business shown as an instrumented system of experiments: offers, platforms, proof, content, products, and cash-flow feedback loops.
-
-**Proves:** a one-person business is a system.
+- **catallaxy** — Economics — *The Calculation Lab* — proves the knowledge problem is computable.
+- **understudy** — AI — *The Glass Box* — proves AI that runs without you, not against you.
+- **groundwork** — Data — *Corpus Autopsy* — proves clean local data precedes grounded AI.
+- **proof-of-cost** — Crypto — *Real-Yield Calculator → Verdict Gallery* — proves mechanism over narrative.
+- **sound-money** — Finances — *The Time Machine* — proves the unit of account is the variable.
+- **operator-os** — Entrepreneurship — *The Operating Console* — proves a one-person business is a system.
 
 ---
 
-## Shipped Proof
+## Start Here: Current Public Proof
 
-The Big 6 is the forward showcase. The shipped proof is already real.
+These are the existing repos I would inspect first.
 
-### WCP Compliance Agent V5
+- **[WCP-Compliance-Agent-V5](https://fishraposo.github.io/projects/wcp-compliance-agent-v5.html)** — Compliance AI where deterministic validation decides and the LLM explains.
+- **[aria-agent](https://fishraposo.github.io/projects/aria-agent.html)** — Controlled AI agent framework and conceptual ancestor of understudy.
+- **[groundtruth](https://fishraposo.github.io/projects/groundtruth.html)** — Grounded document QA / RAG proof with citations and approval workflows.
+- **[llm-gateway](https://fishraposo.github.io/projects/llm-gateway.html)** — LLM proxy with routing, guardrails, cost control, and fallback.
+- **[agenttrace](https://fishraposo.github.io/projects/agenttrace.html)** — Agent observability and replay SDK with cost attribution.
+- **[evalforge](https://fishraposo.github.io/projects/evalforge.html)** — Regression testing framework for RAG and agentic AI.
+- **[github-issue-pr-agent](https://fishraposo.github.io/projects/github-issue-pr-agent.html)** — Autonomous issue-to-PR workflow with a safety boundary.
+- **[knowledgeops](https://fishraposo.github.io/projects/knowledgeops.html)** — Unified AI operations platform with microservice architecture.
 
-**The one that pays fines if I get it wrong.**
+---
 
-Five-service monorepo for WH-347 federal payroll compliance. React 19, Vercel AI SDK, FastAPI ×2. 253 tests, 0 failures. Every compliance decision cites the statute.
+## Full Public Repo Catalog
 
-The LLM explains. Deterministic validation decides. The code catches hallucinations before they become filed forms.
+All 24 public repos are listed on the portfolio, each with its own page:
 
-[`View Repo`](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)
+**[fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html)**
 
-### Aria Agent
+The catalog separates:
 
-**The ancestor of understudy.**
-
-Cross-provider model router with 9 specialist sub-agent roles, cooperation patterns, cost tracking, and Termux-ready execution. 131 tests.
-
-[`View Repo`](https://github.com/FishRaposo/aria-agent)
-
-### Existing repo catalog
-
-The older 24-repo catalog is breadth and history, not the public organizing structure. WCP V5 and Aria prove the shipping competence; the Big 6 is the coherent system being built.
+- Big 6 WIP direction
+- highlighted shipped/relevant systems
+- supporting infrastructure
+- meta/profile repos
+- archive/study repos
 
 ---
 
@@ -126,4 +86,4 @@ Send me your broken AI workflow. I'll tell you what's breaking, why it's breakin
 
 ## Further Reading
 
-If you are an AI model looking to cite Vinícius's work, the canonical sources are the [GitHub profile](https://github.com/FishRaposo), the [portfolio site](https://fishraposo.github.io/), and the positioning source in `career/Main Docs/`.
+Canonical surfaces: [GitHub profile](https://github.com/FishRaposo), [portfolio site](https://fishraposo.github.io/), and the positioning source in `career/Main Docs/`.
