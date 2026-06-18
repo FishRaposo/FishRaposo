@@ -29,7 +29,7 @@ The README is a living document. Keep it current with:
 - Positioning statement — lead with the operator statement + thesis, never a job title (per doc1 §0)
 - Kicker: "I build the systems that work while you don't."
 - Proof anchors (Expat Money first; WCP V5 and Aria Agent as shipped code proof)
-- Links to portfolio, LinkedIn, Upwork
+- Links to portfolio and the primary leverage platforms where appropriate: Upwork, X/Twitter, and Fiverr
 
 ---
 
