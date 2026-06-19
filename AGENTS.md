@@ -23,20 +23,19 @@ git add -A && git commit -m "[description]" && git push  # end
 **Terminology:** when Vinícius says "career hub," he means the interconnected trio `career` + `fishraposo.github.io` + `FishRaposo`. Do **not** restore or use the old deleted `career-hub` repo as active canon.
 
 The README is a living document. Keep it current with:
-- Big 6 showcase — catallaxy, understudy, groundwork, proof-of-cost, sound-money, operator-os as WIP/design-stage until repos exist
-- Current public proof — WCP V5, Aria Agent, GroundTruth, LLM Gateway, AgentTrace, EvalForge, and other strongest existing public repos
-- Full public catalog link — `fishraposo.github.io/projects.html`, where every public repo has an individual page
-- Positioning statement — lead with the operator statement + thesis, never a job title (per doc1 §0)
+- Positioning statement — lead with the operator statement + thesis and the four-binary worldview, never a job title (per doc1 §0)
 - Kicker: "I build the systems that work while you don't."
-- Proof anchors (Expat Money first; WCP V5 and Aria Agent as shipped code proof)
-- Links to portfolio and the primary leverage platforms where appropriate: Upwork, X/Twitter, and Fiverr
+- The **Big 6 map** — six field-repos across the binaries, shown build-in-public with honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent) and the Expat Money anchor in a separate "shipped" context. Full surface spec: `career/Big 6/POSITIONING.md`. (Designed repos link to their plan, not an empty repo; never present an empty repo as finished.)
+- Links to portfolio, LinkedIn, Upwork
+
+**Pending build step:** the live `README.md` still reflects the prior "Eight" AI repos; rebuilding it to the Big 6 surface map is the open task, gated on the Big 6 repos existing so links don't 404.
 
 ---
 
 ## Portfolio Hierarchy
 
 ```
-career (positioning + strategy) → fishraposo.github.io (polished proof) → FishRaposo/README (public face)
+career/Main Docs/ (foundation) → career/Big 6/ (showcase layer) → fishraposo.github.io (polished proof) → FishRaposo/README (public face)
 ```
 
 The profile README is the outermost layer — the one visible to every recruiter, client, and collaborator who visits GitHub. It should be the most concise and highest-signal representation of Vinícius.
