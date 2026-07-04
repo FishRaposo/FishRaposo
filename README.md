@@ -2,9 +2,9 @@
 
 **I build the systems that work while you don't.**
 
-Building AI, sound money, and individual sovereignty.
+On AI, sound money, and owning your own life.
 
-> **Twenty years of the same idea, expressed four different ways.**
+> **Twenty years of the same idea, across three domains.**
 >
 > I build income with AI, store value in crypto, reason through economics, and started it all with a story about dinosaurs.
 
@@ -36,7 +36,7 @@ The interesting part: Expat Money helps people structure their lives across juri
 
 ## The Big 6 — WIP Direction
 
-Six systems, one per field across the three execution binaries. They are build-in-public concepts until their repos exist and contain code.
+Six systems, one per field across the three domains and the spine. They are build-in-public concepts until their repos exist and contain code.
 
 - **catallaxy** — Economics — *The Calculation Lab* — proves the knowledge problem is computable.
 - **understudy** — AI — *The Glass Box* — proves AI that runs without you, not against you.

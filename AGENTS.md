@@ -23,9 +23,9 @@ git add -A && git commit -m "[description]" && git push  # end
 **Terminology:** when Vinícius says "career hub," he means the interconnected trio `career` + `fishraposo.github.io` + `FishRaposo`. Do **not** restore or use the old deleted `career-hub` repo as active canon.
 
 The README is a living document. Keep it current with:
-- Positioning statement — lead with the operator statement + thesis and the four-binary worldview, never a job title (per doc1 §0)
+- Positioning statement — lead with the operator statement + thesis and the three-domain worldview, never a job title (per `the-core.md`)
 - Kicker: "I build the systems that work while you don't."
-- The **Big 6 map** — six field-repos across the binaries, shown build-in-public with honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent) and the Expat Money anchor in a separate "shipped" context. Full surface spec: `career/Big 6/POSITIONING.md`. (Designed repos link to their plan, not an empty repo; never present an empty repo as finished.)
+- The **Big 6 map** — six field-repos across the three domains and the spine, shown build-in-public with honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent) and the Expat Money anchor in a separate "shipped" context. Full surface spec: `career/Big 6/POSITIONING.md`. (Designed repos link to their plan, not an empty repo; never present an empty repo as finished.)
 - Links to portfolio, LinkedIn, Upwork
 
 **Pending build step:** the live `README.md` still reflects the prior "Eight" AI repos; rebuilding it to the Big 6 surface map is the open task, gated on the Big 6 repos existing so links don't 404.
