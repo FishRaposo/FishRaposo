@@ -25,17 +25,17 @@ git add -A && git commit -m "[description]" && git push  # end
 The README is a living document. Keep it current with:
 - Positioning statement — lead with the operator statement + thesis and the three-domain worldview, never a job title (per `the-core.md`)
 - Kicker: "I build the systems that work while you don't."
-- The **Big 6 map** — six field-repos across the three domains and the spine, shown build-in-public with honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent) and the Expat Money anchor in a separate "shipped" context. Full surface spec: `career/Big 6/POSITIONING.md`. (Designed repos link to their plan, not an empty repo; never present an empty repo as finished.)
+- The **personal expert brand** — AI reliability, systems engineering, and serious AI-assisted development, shown build-in-public with honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent) and the Expat Money anchor in a separate "shipped" context. (A Designed project links to its plan, not an empty repo; never present an empty repo as finished.)
 - Links to portfolio, LinkedIn, Upwork
 
-**Pending build step:** the live `README.md` still reflects the prior "Eight" AI repos; rebuilding it to the Big 6 surface map is the open task, gated on the Big 6 repos existing so links don't 404.
+**Pending build step:** the live `README.md` still reflects the prior "Eight" AI repos; rebuilding it to the personal-expert-brand positioning is the open task. The surface spec lives in the workspace's private business-portfolio repo — read it there before rebuilding, and never copy private strategy details into this public repo. The formerly planned "Big 6" showcase repos are retired and will not be built; remove any claim that they are coming.
 
 ---
 
 ## Portfolio Hierarchy
 
 ```
-career/Main Docs/ (foundation) → career/Big 6/ (showcase layer) → fishraposo.github.io (polished proof) → FishRaposo/README (public face)
+business-portfolio (private north star — wins on conflict) → career/ (identity & voice canon) → fishraposo.github.io (polished proof) → FishRaposo/README (public face)
 ```
 
 The profile README is the outermost layer — the one visible to every recruiter, client, and collaborator who visits GitHub. It should be the most concise and highest-signal representation of Vinícius.
@@ -59,6 +59,8 @@ When updating:
 These are sibling repos in the active career-hub trio, not a separate `career-hub` checkout:
 
 - `../fishraposo.github.io/` — Portfolio (polished proof, repo showcase)
-- `../career/` — Positioning source of truth (`POSITIONING.md`, `Main Docs/`)
+- `../career/` — Identity & voice canon (`the-core.md`, `Main Docs/`)
 
-See the workspace-root `../AGENTS.md` for how the three repos relate and which layer wins on conflict.
+Above both sits the workspace's business-portfolio layer (private) — it is the north star and wins on conflict, but is never quoted, linked, or excerpted in this public repo.
+
+See the workspace-root `../AGENTS.md` for how the repos relate and which layer wins on conflict.
