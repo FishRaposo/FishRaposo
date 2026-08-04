@@ -20,7 +20,7 @@ git add -A && git commit -m "[description]" && git push  # end
 - **README.md** — The GitHub profile page. Lives at the root. Displayed on the public GitHub profile.
 - Everything else — supporting assets (badges, icons, images) referenced by README.md.
 
-**Terminology:** when Vinícius says "career hub," he means the interconnected trio `career` + `fishraposo.github.io` + `FishRaposo`. Do **not** restore or use the old deleted `career-hub` repo as active canon.
+**Terminology:** when Vinícius says "career hub," he means the **whole workspace** — the hub repo plus all its sovereign children (this repo, `fishraposo.github.io`, `career/`, the templates kit, and the private business-portfolio north star with MINS nested inside). Do **not** restore or use the old retired `career-hub-legacy` repo (the pre-2026-07 job-hunting one) as active canon.
 
 The README is a living document. Keep it current with:
 - Positioning statement — lead with the operator statement + thesis and the three-domain worldview, never a job title (per `the-core.md`)
