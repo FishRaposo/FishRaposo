@@ -20,25 +20,26 @@ git add -A && git commit -m "[description]" && git push  # end
 - **README.md** — The GitHub profile page. Lives at the root. Displayed on the public GitHub profile.
 - Everything else — supporting assets (badges, icons, images) referenced by README.md.
 
-**Terminology:** when Vinícius says "career hub," he means the **whole workspace** — the hub repo plus all its sovereign children (this repo, `fishraposo.github.io`, `career/`, the templates kit, and the private business-portfolio north star with MINS nested inside). Do **not** restore or use the old retired `career-hub-legacy` repo (the pre-2026-07 job-hunting one) as active canon.
+**Terminology:** when Vinícius says "career hub," he means the **whole workspace** — the hub repo plus all its sovereign children (this repo, `fishraposo.github.io`, `mini-agent`, the templates kit, and the private business-portfolio with MINS nested inside). Do **not** restore or use the old retired `career-hub-legacy` repo (the pre-2026-07 job-hunting one).
+
+**Era note (2026-08-11):** the workspace pivoted — everything is reference, not canon; there is no "north star" repo. The working pair is `IDENTITY.md` (who — the ikigai keystone) + `career-strategy/` (what/how — the operating layer) at the hub root. The old identity canon lives at `archive/career/`; the old `career/` directory path no longer exists.
 
 The README is a living document. Keep it current with:
-- Positioning statement — lead with the operator statement + thesis and the three-domain worldview, never a job title (per `the-core.md`)
-- Kicker: "I build the systems that work while you don't."
-- The **personal expert brand** — AI reliability, systems engineering, and serious AI-assisted development, shown build-in-public with honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent) and the Expat Money anchor in a separate "shipped" context. (A Designed project links to its plan, not an empty repo; never present an empty repo as finished.)
+- Positioning — lead with the operator statement ("I build the systems that work while you don't") and the **personal expert brand**: AI reliability, systems engineering, and serious AI-assisted development (per `IDENTITY.md` §4 — never a three-domain worldview lead on a professional surface).
+- Honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent, mini-agent) and the Expat Money anchor in a separate "shipped" context. (A Designed project links to its plan, not an empty repo; never present an empty repo as finished.)
 - Links to portfolio, LinkedIn, Upwork
 
-**Pending build step:** the live `README.md` still reflects the prior "Eight" AI repos; rebuilding it to the personal-expert-brand positioning is the open task. The surface spec lives in the workspace's private business-portfolio repo — read it there before rebuilding, and never copy private strategy details into this public repo. The formerly planned "Big 6" showcase repos are retired and will not be built; remove any claim that they are coming.
+**Pending build step:** the README was de-staled 2026-08-11 (Big 6 section removed — those repos were never created and will not be built; mini-agent added). The full storefront rewrite around the AI-reliability persona is specced in the hub's `career-strategy/01-job-hunt-and-cv.md` + `06-github-audit.md` — read those before the next rebuild, and never copy private strategy details into this public repo.
 
 ---
 
-## Portfolio Hierarchy
+## Ordering (pivot era)
 
 ```
-business-portfolio (private north star — wins on conflict) → career/ (identity & voice canon) → fishraposo.github.io (polished proof) → FishRaposo/README (public face)
+owner's current instructions → live repo state → IDENTITY.md + career-strategy/ → Business Portfolio/ (quarry) → archive/
 ```
 
-The profile README is the outermost layer — the one visible to every recruiter, client, and collaborator who visits GitHub. It should be the most concise and highest-signal representation of Vinícius.
+The profile README is the outermost public layer — the one visible to every recruiter, client, and collaborator who visits GitHub. It should be the most concise and highest-signal representation of Vinícius.
 
 ---
 
@@ -56,11 +57,12 @@ When updating:
 
 ## Related Repos
 
-These are sibling repos in the active career-hub trio, not a separate `career-hub` checkout:
+These are sibling repos in the workspace, not a separate `career-hub` checkout:
 
 - `../fishraposo.github.io/` — Portfolio (polished proof, repo showcase)
-- `../career/` — Identity & voice canon (`the-core.md`, `Main Docs/`)
+- `../mini-agent/` — the hiring artifact (public)
+- `../IDENTITY.md` + `../career-strategy/` — the hub's working pair (identity keystone + operating layer); the old `../career/` canon is at `../archive/career/`
 
-Above both sits the workspace's business-portfolio layer (private) — it is the north star and wins on conflict, but is never quoted, linked, or excerpted in this public repo.
+The workspace's business-portfolio layer (private) is a reference quarry — never quoted, linked, or excerpted in this public repo.
 
-See the workspace-root `../AGENTS.md` for how the repos relate and which layer wins on conflict.
+See the workspace-root `../AGENTS.md` for how the repos relate.
