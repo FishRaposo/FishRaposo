@@ -29,7 +29,7 @@ The README is a living document. Keep it current with:
 - Honest status (Shipped / Building / Designed / Consolidated); cited proof (WCP V5 and canonical ARIA) and the Expat Money anchor in a separate "shipped" context. Absorbed repositories are lineage, not independent flagships.
 - Links to portfolio, LinkedIn, Upwork
 
-**Status (2026-08-12):** the README leads with canonical ARIA; mini-agent appears only as consolidated lineage. GitHub-side repo archiving and pins remain owner actions. Never copy private strategy details into this public repo.
+**Status (2026-08-12):** the README leads with canonical ARIA; mini-agent appears only as consolidated lineage. The 13 approved GitHub archive flags were verified on 2026-08-12; no remote deletions or renames occurred. Never copy private strategy details into this public repo.
 
 ---
 
@@ -60,7 +60,7 @@ When updating:
 These are sibling repos in the workspace, not a separate `career-hub` checkout:
 
 - `../fishraposo.github.io/` — Portfolio (polished proof, repo showcase)
-- `../mini-agent/` — local lineage source for Agent Skills capabilities consolidated into ARIA (public; archive approval pending)
+- `../portfolio-inventory/references/mini-agent.md` — retained lineage record for Agent Skills capabilities consolidated into ARIA; FishRaposo/mini-agent archived 2026-08-12 and its local clone was removed after backup.
 - `../IDENTITY.md` + `../career-strategy/` — the hub's working pair (identity keystone + operating layer); the old `../career/` canon is at `../archive/career/`
 
 The workspace's business-portfolio layer (private) is a reference quarry — never quoted, linked, or excerpted in this public repo.
