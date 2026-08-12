@@ -29,7 +29,7 @@ The README is a living document. Keep it current with:
 - Honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent, mini-agent) and the Expat Money anchor in a separate "shipped" context. (A Designed project links to its plan, not an empty repo; never present an empty repo as finished.)
 - Links to portfolio, LinkedIn, Upwork
 
-**Pending build step:** the README was de-staled 2026-08-11 (Big 6 section removed — those repos were never created and will not be built; mini-agent added). The full storefront rewrite around the AI-reliability persona is specced in the hub's `career-strategy/01-job-hunt-and-cv.md` + `06-github-audit.md` — read those before the next rebuild, and never copy private strategy details into this public repo.
+**Status (2026-08-11):** the README was rebuilt around applied AI reliability — the operator statement + field lead replaces the three-domain worldview lead, mini-agent is in the proof list, the article series is mentioned. Remaining storefront items live in the hub's `career-strategy/06-github-audit.md` queue: the Command Code mods repo, GitHub-side repo archiving, and pins (owner UI actions). Never copy private strategy details into this public repo.
 
 ---
 
