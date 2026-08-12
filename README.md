@@ -2,11 +2,7 @@
 
 **I build the systems that work while you don't.**
 
-On AI, sound money, and owning your own life.
-
-> **Twenty years of the same idea, across three domains.**
->
-> I build income with AI, store value in crypto, reason through economics, and started it all with a story about dinosaurs.
+Applied AI reliability — production RAG, agents, evaluation, deterministic scaffolding.
 
 > **Last updated: 2026-08-11.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
 
@@ -20,9 +16,7 @@ This isn't cost arbitrage. It's engineering arbitrage.
 
 Systems that work in production. Not demos that break on real data.
 
-Production AI is the execution surface: RAG pipelines with grounded retrieval, evaluation flows that catch regressions, agent infrastructure that does not trust the LLM, and observability so you know what is failing and why.
-
-But the identity is not a narrow AI title. The portfolio is a map of the worldview: economics, AI, data, crypto, finances, and entrepreneurship as one system.
+Production AI is the execution surface: RAG pipelines with grounded retrieval, evaluation flows that catch regressions, agent infrastructure that does not trust the LLM, and observability so you know what is failing and why. The recurring move: discover the method with expensive intelligence, encode it as deterministic software and policy, let cheap models execute it reliably. The nondeterminism doesn't disappear — it stops mattering.
 
 ---
 
@@ -47,6 +41,8 @@ These are the existing repos I would inspect first.
 - **[evalforge](https://fishraposo.github.io/projects/evalforge.html)** — Regression testing framework for RAG and agentic AI.
 - **[github-issue-pr-agent](https://fishraposo.github.io/projects/github-issue-pr-agent.html)** — Autonomous issue-to-PR workflow with a safety boundary.
 - **[knowledgeops](https://fishraposo.github.io/projects/knowledgeops.html)** — Unified AI operations platform with microservice architecture.
+
+Also writing: *Taste Is All You Need* — a long-form analysis of agent-harness economics and why scaffolding beats model spend. Part 2 (the receipts: a byte-validated benchmark where encoding the method made two model tiers interchangeable) is in assembly.
 
 ---
 
@@ -73,4 +69,4 @@ Send me your broken AI workflow. I'll tell you what's breaking, why it's breakin
 
 ## Further Reading
 
-Canonical surfaces: [GitHub profile](https://github.com/FishRaposo), [portfolio site](https://fishraposo.github.io/), and the positioning source in `career/Main Docs/`.
+Canonical surfaces: [GitHub profile](https://github.com/FishRaposo) and the [portfolio site](https://fishraposo.github.io/).
