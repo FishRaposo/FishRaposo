@@ -8,7 +8,7 @@ On AI, sound money, and owning your own life.
 >
 > I build income with AI, store value in crypto, reason through economics, and started it all with a story about dinosaurs.
 
-> **Last updated: 2026-06-16.** Public GitHub now has 24 repos. The Big 6 is the WIP direction; the shipped/high-signal repos below are the current proof.
+> **Last updated: 2026-08-11.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
@@ -34,25 +34,13 @@ The interesting part: Expat Money helps people structure their lives across juri
 
 ---
 
-## The Big 6 — WIP Direction
-
-Six systems, one per field across the three domains and the spine. They are build-in-public concepts until their repos exist and contain code.
-
-- **catallaxy** — Economics — *The Calculation Lab* — proves the knowledge problem is computable.
-- **understudy** — AI — *The Glass Box* — proves AI that runs without you, not against you.
-- **groundwork** — Data — *Corpus Autopsy* — proves clean local data precedes grounded AI.
-- **proof-of-cost** — Crypto — *Real-Yield Calculator → Verdict Gallery* — proves mechanism over narrative.
-- **sound-money** — Finances — *The Time Machine* — proves the unit of account is the variable.
-- **operator-os** — Entrepreneurship — *The Operating Console* — proves a one-person business is a system.
-
----
-
 ## Start Here: Current Public Proof
 
 These are the existing repos I would inspect first.
 
 - **[WCP-Compliance-Agent-V5](https://fishraposo.github.io/projects/wcp-compliance-agent-v5.html)** — Production-ready WH-347 compliance platform: deterministic validation decides, the LLM explains, and every decision is traceable.
-- **[aria-agent](https://fishraposo.github.io/projects/aria-agent.html)** — Controlled AI agent framework and conceptual ancestor of understudy.
+- **[mini-agent](https://github.com/FishRaposo/mini-agent)** — Mini coding agent CLI implementing the Agent Skills spec, 137 tests, with an honestly documented verification story.
+- **[aria-agent](https://fishraposo.github.io/projects/aria-agent.html)** — Controlled AI agent framework: tool registry, approval gates, memory, execution tracing.
 - **[groundtruth](https://fishraposo.github.io/projects/groundtruth.html)** — Grounded document QA / RAG proof with citations and approval workflows.
 - **[llm-gateway](https://fishraposo.github.io/projects/llm-gateway.html)** — LLM proxy with routing, guardrails, cost control, and fallback.
 - **[agenttrace](https://fishraposo.github.io/projects/agenttrace.html)** — Agent observability and replay SDK with cost attribution.
@@ -64,13 +52,12 @@ These are the existing repos I would inspect first.
 
 ## Full Public Repo Catalog
 
-All 24 public repos are listed on the portfolio, each with its own page:
+The full public repo catalog lives on the portfolio, each project with its own page:
 
 **[fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html)**
 
 The catalog separates:
 
-- Big 6 WIP direction
 - highlighted shipped/relevant systems
 - supporting infrastructure
 - meta/profile repos
