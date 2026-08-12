@@ -33,14 +33,13 @@ The interesting part: Expat Money helps people structure their lives across juri
 These are the existing repos I would inspect first.
 
 - **[WCP-Compliance-Agent-V5](https://fishraposo.github.io/projects/wcp-compliance-agent-v5.html)** — Production-ready WH-347 compliance platform: deterministic validation decides, the LLM explains, and every decision is traceable.
-- **[mini-agent](https://github.com/FishRaposo/mini-agent)** — Mini coding agent CLI implementing the Agent Skills spec, 137 tests, with an honestly documented verification story.
-- **[aria-agent](https://fishraposo.github.io/projects/aria-agent.html)** — Controlled AI agent framework: tool registry, approval gates, memory, execution tracing.
+- **[aria-agent](https://fishraposo.github.io/projects/aria-agent.html)** — Canonical clean-break agent harness: approval gates, execution tracing, and progressive-disclosure Agent Skills support consolidated from mini-agent.
 - **[groundtruth](https://fishraposo.github.io/projects/groundtruth.html)** — Grounded document QA / RAG proof with citations and approval workflows.
 - **[llm-gateway](https://fishraposo.github.io/projects/llm-gateway.html)** — LLM proxy with routing, guardrails, cost control, and fallback.
 - **[agenttrace](https://fishraposo.github.io/projects/agenttrace.html)** — Agent observability and replay SDK with cost attribution.
 - **[evalforge](https://fishraposo.github.io/projects/evalforge.html)** — Regression testing framework for RAG and agentic AI.
 - **[github-issue-pr-agent](https://fishraposo.github.io/projects/github-issue-pr-agent.html)** — Autonomous issue-to-PR workflow with a safety boundary.
-- **[knowledgeops](https://fishraposo.github.io/projects/knowledgeops.html)** — Unified AI operations platform with microservice architecture.
+- **[groundtruth](https://fishraposo.github.io/projects/groundtruth.html)** — Canonical production RAG platform; ingestion and useful deployment topology consolidated from document-intelligence-pipeline and knowledgeops.
 
 Also writing: *Taste Is All You Need* — a long-form analysis of agent-harness economics and why scaffolding beats model spend. Part 2 (the receipts: a byte-validated benchmark where encoding the method made two model tiers interchangeable) is in assembly.
 

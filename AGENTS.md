@@ -26,10 +26,10 @@ git add -A && git commit -m "[description]" && git push  # end
 
 The README is a living document. Keep it current with:
 - Positioning — lead with the operator statement ("I build the systems that work while you don't") and the **personal expert brand**: AI reliability, systems engineering, and serious AI-assisted development (per `IDENTITY.md` §4 — never a three-domain worldview lead on a professional surface).
-- Honest status (Shipped / Building / Designed); cited proof (WCP V5, aria-agent, mini-agent) and the Expat Money anchor in a separate "shipped" context. (A Designed project links to its plan, not an empty repo; never present an empty repo as finished.)
+- Honest status (Shipped / Building / Designed / Consolidated); cited proof (WCP V5 and canonical ARIA) and the Expat Money anchor in a separate "shipped" context. Absorbed repositories are lineage, not independent flagships.
 - Links to portfolio, LinkedIn, Upwork
 
-**Status (2026-08-11):** the README was rebuilt around applied AI reliability — the operator statement + field lead replaces the three-domain worldview lead, mini-agent is in the proof list, the article series is mentioned. Remaining storefront items live in the hub's `career-strategy/06-github-audit.md` queue: the Command Code mods repo, GitHub-side repo archiving, and pins (owner UI actions). Never copy private strategy details into this public repo.
+**Status (2026-08-12):** the README leads with canonical ARIA; mini-agent appears only as consolidated lineage. GitHub-side repo archiving and pins remain owner actions. Never copy private strategy details into this public repo.
 
 ---
 
@@ -60,7 +60,7 @@ When updating:
 These are sibling repos in the workspace, not a separate `career-hub` checkout:
 
 - `../fishraposo.github.io/` — Portfolio (polished proof, repo showcase)
-- `../mini-agent/` — the hiring artifact (public)
+- `../mini-agent/` — local lineage source for Agent Skills capabilities consolidated into ARIA (public; archive approval pending)
 - `../IDENTITY.md` + `../career-strategy/` — the hub's working pair (identity keystone + operating layer); the old `../career/` canon is at `../archive/career/`
 
 The workspace's business-portfolio layer (private) is a reference quarry — never quoted, linked, or excerpted in this public repo.
