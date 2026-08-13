@@ -4,7 +4,7 @@
 
 Applied AI reliability — production RAG, agents, evaluation, deterministic scaffolding.
 
-> **Last updated: 2026-08-11.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
+> **Last updated: 2026-08-13.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
@@ -34,12 +34,11 @@ These are the existing repos I would inspect first.
 
 - **[WCP-Compliance-Agent-V5](https://fishraposo.github.io/projects/wcp-compliance-agent-v5.html)** — Production-ready WH-347 compliance platform: deterministic validation decides, the LLM explains, and every decision is traceable.
 - **[aria-agent](https://fishraposo.github.io/projects/aria-agent.html)** — Canonical clean-break agent harness: approval gates, execution tracing, and progressive-disclosure Agent Skills support consolidated from mini-agent.
-- **[groundtruth](https://fishraposo.github.io/projects/groundtruth.html)** — Grounded document QA / RAG proof with citations and approval workflows.
+- **[groundtruth](https://fishraposo.github.io/projects/groundtruth.html)** — Canonical production RAG platform: hybrid search, citations, refusal logic — ingestion and deployment topology consolidated from document-intelligence-pipeline and knowledgeops.
 - **[llm-gateway](https://fishraposo.github.io/projects/llm-gateway.html)** — LLM proxy with routing, guardrails, cost control, and fallback.
-- **[agenttrace](https://fishraposo.github.io/projects/agenttrace.html)** — Agent observability and replay SDK with cost attribution.
-- **[evalforge](https://fishraposo.github.io/projects/evalforge.html)** — Regression testing framework for RAG and agentic AI.
+- **[agenttrace](https://fishraposo.github.io/projects/agenttrace.html)** — Agent observability and replay SDK with cost attribution and prompt-cost reporting — consolidated from llm-cost-latency-monitor.
+- **[evalforge](https://fishraposo.github.io/projects/evalforge.html)** — Regression testing for RAG and agentic AI: retrieval and conversational evaluations — consolidated from rag-evaluation-lab and ai-support-simulator.
 - **[github-issue-pr-agent](https://fishraposo.github.io/projects/github-issue-pr-agent.html)** — Autonomous issue-to-PR workflow with a safety boundary.
-- **[groundtruth](https://fishraposo.github.io/projects/groundtruth.html)** — Canonical production RAG platform; ingestion and useful deployment topology consolidated from document-intelligence-pipeline and knowledgeops.
 
 Also writing: *Taste Is All You Need* — a long-form analysis of agent-harness economics and why scaffolding beats model spend. Part 2 (the receipts: a byte-validated benchmark where encoding the method made two model tiers interchangeable) is in assembly.
 
