@@ -40,7 +40,7 @@ These are the existing repos I would inspect first.
 - **[evalforge](https://fishraposo.github.io/projects/evalforge.html)** — Regression testing for RAG and agentic AI: retrieval and conversational evaluations — consolidated from rag-evaluation-lab and ai-support-simulator.
 - **[github-issue-pr-agent](https://fishraposo.github.io/projects/github-issue-pr-agent.html)** — Autonomous issue-to-PR workflow with a safety boundary.
 
-Also writing: *Taste Is All You Need* — a long-form analysis of agent-harness economics and why scaffolding beats model spend. Part 2 (the receipts: a byte-validated benchmark where encoding the method made two model tiers interchangeable) is in assembly.
+Also writing: *Taste Is All You Need* — a long-form analysis of agent-harness economics and why scaffolding beats model spend.
 
 ---
 
