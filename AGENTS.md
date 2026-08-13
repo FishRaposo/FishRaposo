@@ -20,7 +20,7 @@ git add -A && git commit -m "[description]" && git push  # end
 - **README.md** — The GitHub profile page. Lives at the root. Displayed on the public GitHub profile.
 - Everything else — supporting assets (badges, icons, images) referenced by README.md.
 
-**Terminology:** when Vinícius says "career hub," he means the **whole workspace** — the hub repo plus all its sovereign children (this repo, `fishraposo.github.io`, `mini-agent`, the templates kit, and the private business-portfolio with MINS nested inside). Do **not** restore or use the old retired `career-hub-legacy` repo (the pre-2026-07 job-hunting one).
+**Terminology:** when Vinícius says "career hub," he means the **whole workspace** — the hub repo plus all its sovereign children (this repo, `fishraposo.github.io`, the templates kit, the private business-portfolio with MINS nested inside, and the `Portfolio Projects/` finalization queue, which includes `aria-agent`). Do **not** restore or use the old retired `career-hub-legacy` repo (the pre-2026-07 job-hunting one).
 
 **Era note (2026-08-11):** the workspace pivoted — everything is reference, not canon; there is no "north star" repo. The working pair is `IDENTITY.md` (who — the ikigai keystone) + `career-strategy/` (what/how — the operating layer) at the hub root. The old identity canon lives at `archive/career/`; the old `career/` directory path no longer exists.
 
@@ -29,7 +29,7 @@ The README is a living document. Keep it current with:
 - Honest status (Shipped / Building / Designed / Consolidated); cited proof (WCP V5 and canonical ARIA) and the Expat Money anchor in a separate "shipped" context. Absorbed repositories are lineage, not independent flagships.
 - Links to portfolio, LinkedIn, Upwork
 
-**Status (2026-08-12):** the README leads with canonical ARIA; mini-agent appears only as consolidated lineage. The 13 approved GitHub archive flags were verified on 2026-08-12; no remote deletions or renames occurred. Never copy private strategy details into this public repo.
+**Status (2026-08-13):** the README leads with canonical ARIA; mini-agent appears only as consolidated lineage. The unpublished Article 2 tease was removed from the writing line 2026-08-13 — the Article 1 mention stays. ARIA now lives in the hub's `Portfolio Projects/` finalization queue; the two permanent public-face repos are this one and `fishraposo.github.io`. Never copy private strategy details into this public repo.
 
 ---
 
@@ -60,7 +60,7 @@ When updating:
 These are sibling repos in the workspace, not a separate `career-hub` checkout:
 
 - `../fishraposo.github.io/` — Portfolio (polished proof, repo showcase)
-- `../portfolio-inventory/references/mini-agent.md` — retained lineage record for Agent Skills capabilities consolidated into ARIA; FishRaposo/mini-agent archived 2026-08-12 and its local clone was removed after backup.
+- mini-agent — Agent Skills capabilities consolidated into ARIA; FishRaposo/mini-agent archived on GitHub 2026-08-12 and its local clone removed after backup (de-brand commit preserved as `../archive/mini-agent-debrand-2f712cf.patch`).
 - `../IDENTITY.md` + `../career-strategy/` — the hub's working pair (identity keystone + operating layer); the old `../career/` canon is at `../archive/career/`
 
 The workspace's business-portfolio layer (private) is a reference quarry — never quoted, linked, or excerpted in this public repo.
