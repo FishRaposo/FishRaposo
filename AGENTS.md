@@ -29,7 +29,7 @@ The README is a living document. Keep it current with:
 - Honest status (Shipped / Building / Designed / Consolidated); cited proof (WCP V5 and canonical ARIA) and the Expat Money anchor in a separate "shipped" context. Absorbed repositories are lineage, not independent flagships.
 - Links to portfolio, LinkedIn, Upwork
 
-**Status (2026-08-13):** the README leads with canonical ARIA; mini-agent appears only as consolidated lineage. The unpublished Article 2 tease was removed from the writing line 2026-08-13 — the Article 1 mention stays. ARIA now lives in the hub's `Portfolio Projects/` finalization queue; the two permanent public-face repos are this one and `fishraposo.github.io`. Never copy private strategy details into this public repo.
+**Status (2026-08-22):** synced to the shipped 2026-08-22 CVs (`career-strategy/cv/` in the hub) — added the "Now: Founding Engineer at Zap Viagens" line and corrected the Expat Money claim to the CV's wording (90% content-cost reduction, 50% faster content production; 2022–2025, created and led the AI function). Prior status: the README leads with canonical ARIA; mini-agent appears only as consolidated lineage. The unpublished Article 2 tease was removed from the writing line 2026-08-13 — the Article 1 mention stays. ARIA now lives in the hub's `Portfolio Projects/` finalization queue; the two permanent public-face repos are this one and `fishraposo.github.io`. Never copy private strategy details into this public repo.
 
 ---
 

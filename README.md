@@ -4,11 +4,13 @@
 
 Applied AI reliability — production RAG, agents, evaluation, deterministic scaffolding.
 
-> **Last updated: 2026-08-13.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
+> **Last updated: 2026-08-22.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
 This isn't cost arbitrage. It's engineering arbitrage.
+
+**Now:** Founding Engineer at Zap Viagens — privacy-first, self-hosted AI products (CRM automation, campaign generation) on open-source models for service businesses.
 
 ---
 
@@ -22,7 +24,7 @@ Production AI is the execution surface: RAG pipelines with grounded retrieval, e
 
 ## The Anchor: Expat Money
 
-Three years building production AI systems inside a real business — not side projects. Internal assistants, content-generation pipelines, scraping workflows, RAG systems, business automation. The result: 90% operational cost reduction, 50% faster content production.
+Three and a half years (2022–2025) creating and leading the AI function inside a real business — not side projects. Internal assistants, content-generation pipelines, scraping workflows, RAG systems, business automation. The result: 90% content-cost reduction, 50% faster content production.
 
 The interesting part: Expat Money helps people structure their lives across jurisdictions — flag theory, expat planning, financial sovereignty. The AI wasn't decoration. It was how a business built around individual autonomy automated the labor of producing expert knowledge at scale. That's what grounded retrieval looks like in a domain where wrong answers have real consequences.
 
