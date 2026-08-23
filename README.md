@@ -36,11 +36,11 @@ The interesting part: Expat Money helps people structure their lives across juri
 
 These are the repos I would inspect first.
 
-- **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** — Production-grade WH-347 compliance platform: deterministic validation decides, the LLM explains, every decision traceable. Five services, 270+ tests, offline-verifiable evidence bundle.
+- **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** — Production-grade WH-347 compliance platform: deterministic validation decides, the LLM explains, every decision traceable. Five services, 367 public tests across the service bins (plus four tooling checks in the receipt), offline-verifiable evidence bundle.
 - **[aria-agent](https://github.com/FishRaposo/aria-agent)** — Canonical clean-break agent harness: approval gates, execution tracing, progressive-disclosure Agent Skills.
 - **[groundtruth](https://github.com/FishRaposo/groundtruth)** — Production RAG platform: hybrid search, citations, refusal logic.
 - **[llm-gateway](https://github.com/FishRaposo/llm-gateway)** — LLM proxy with routing, guardrails, cost control, and fallback.
-- **[agenttrace](https://github.com/FishRaposo/agenttrace)** — Agent observability and replay SDK with cost attribution (lineage: llm-cost-latency-monitor, github-issue-pr-agent).
+- **[agenttrace](https://github.com/FishRaposo/agenttrace)** — Agent observability and replay SDK with cost attribution, prompt-cost reporting, and an absorbed safety-bounded issue→draft-PR workflow (lineage: llm-cost-latency-monitor, github-issue-pr-agent; source archived).
 - **[evalforge](https://github.com/FishRaposo/evalforge)** — Regression testing for RAG and agentic AI: retrieval and conversational evaluations (lineage: rag-evaluation-lab, ai-support-simulator).
 
 Writing: *[Taste Is All You Need](https://x.com/FishRaposo/status/2080404528692924696)* — a long-form analysis of agent-harness economics and why scaffolding beats model spend.
