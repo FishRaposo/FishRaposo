@@ -38,10 +38,10 @@ These are the repos I would inspect first.
 
 - **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** — Production-grade WH-347 compliance platform: deterministic validation decides, the LLM explains, every decision traceable. The CV summarizes it as 270 unit tests; the full receipt records 367 public tests across five service bins plus four tooling checks, with an offline-verifiable evidence bundle.
 - **[aria-agent](https://github.com/FishRaposo/aria-agent)** — Canonical clean-break agent harness: approval gates, execution tracing, progressive-disclosure Agent Skills.
-- **[groundtruth](https://github.com/FishRaposo/groundtruth)** — Production RAG platform: hybrid search, citations, refusal logic.
-- **[llm-gateway](https://github.com/FishRaposo/llm-gateway)** — LLM proxy with routing, guardrails, cost control, and fallback.
+- **[command-code-mods](https://github.com/FishRaposo/command-code-mods)** — Seven standalone-installable Command Code mods encoding planning, safety, completion judgment, verified follow-through, gated memory, skill learning, and cache observability behind event contracts.
 - **[agenttrace](https://github.com/FishRaposo/agenttrace)** — Agent observability and replay SDK with cost attribution, prompt-cost reporting, and an absorbed safety-bounded issue→draft-PR workflow (lineage: llm-cost-latency-monitor, github-issue-pr-agent; source archived).
 - **[evalforge](https://github.com/FishRaposo/evalforge)** — Regression testing for RAG and agentic AI: retrieval and conversational evaluations (lineage: rag-evaluation-lab, ai-support-simulator).
+- **[groundtruth](https://github.com/FishRaposo/groundtruth)** — Production RAG platform: hybrid search, citations, refusal logic.
 
 Writing: *[Taste Is All You Need](https://x.com/FishRaposo/status/2080404528692924696)* — a long-form analysis of agent-harness economics and why scaffolding beats model spend.
 
