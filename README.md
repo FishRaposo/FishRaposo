@@ -4,7 +4,7 @@
 
 Applied AI reliability — production RAG, agents, evaluation, deterministic scaffolding.
 
-&gt; **Last updated: 2026-08-23.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
+&gt; **Last updated: 2026-09-13.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
@@ -45,6 +45,8 @@ These are the repos I would inspect first.
 
 Writing: *[Taste Is All You Need](https://x.com/FishRaposo/status/2080404528692924696)* — a long-form analysis of agent-harness economics and why scaffolding beats model spend.
 
+**How to review this profile:** the [WCP V5 verification table](https://github.com/FishRaposo/WCP-Compliance-Agent-V5#current-verification-state), [evalforge](https://github.com/FishRaposo/evalforge), and the Taste essay. That is the interview.
+
 ---
 
 ## Full Public Repo Catalog
@@ -59,6 +61,9 @@ The catalog separates highlighted shipped systems, supporting infrastructure, me
 
 ## Contact
 
-Freelance engagements via **[Upwork](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3)** — everything above is the due diligence.
+- **Site:** [fishraposo.github.io](https://fishraposo.github.io) — full project catalog
+- **X:** [@FishRaposo](https://x.com/FishRaposo)
+- **Upwork:** [upwork.com/freelancers/~01ca94c53d0d0101f3](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3) — freelance engagements; everything above is the due diligence
+- **Email:** [viniciusraposo71@hotmail.com](mailto:viniciusraposo71@hotmail.com)
 
 Send me your broken AI workflow. I'll tell you what's breaking, why it's breaking, and the fastest path to a system your team can actually depend on.
