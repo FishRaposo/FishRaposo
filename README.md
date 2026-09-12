@@ -64,6 +64,6 @@ The catalog separates highlighted shipped systems, supporting infrastructure, me
 - **Site:** [fishraposo.github.io](https://fishraposo.github.io) — full project catalog
 - **X:** [@FishRaposo](https://x.com/FishRaposo)
 - **Upwork:** [upwork.com/freelancers/~01ca94c53d0d0101f3](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3) — freelance engagements; everything above is the due diligence
-- **Email:** [viniciusraposo71@hotmail.com](mailto:viniciusraposo71@hotmail.com)
+- **Email:** [fishraposo@gmail.com](mailto:fishraposo@gmail.com)
 
 Send me your broken AI workflow. I'll tell you what's breaking, why it's breaking, and the fastest path to a system your team can actually depend on.
