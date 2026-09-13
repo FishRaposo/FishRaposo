@@ -26,7 +26,7 @@ Production AI is the execution surface: RAG pipelines with grounded retrieval, e
 
 ## The Anchor: Expat Money
 
-Jun 2022 – Nov 2025 creating and leading the AI function inside a real business — not side projects. Internal assistants, content-generation pipelines, scraping workflows, RAG systems, business automation. The result: the AI tooling bill for content production cut 90% — a $200/month subscription replaced by a custom GPT on ChatGPT Plus — and production time halved.
+Jun 2022 – Nov 2025 creating and leading the AI function inside a real business — not side projects. Internal assistants, content-generation pipelines, scraping workflows, RAG systems, business automation. The result: AI for content creation cost cut ~90% — a $200/month subscription replaced by a custom GPT on ChatGPT Plus — and content production time halved.
 
 The interesting part: Expat Money helps people structure their lives across jurisdictions — flag theory, expat planning, financial sovereignty. The AI wasn't decoration. It was how a business built around individual autonomy automated the labor of producing expert knowledge at scale. That's what grounded retrieval looks like in a domain where wrong answers have real consequences.
 
