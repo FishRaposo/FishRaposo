@@ -2,9 +2,9 @@
 
 **I build the systems that work while you don't.**
 
-Applied AI reliability — production RAG & LLM apps, LangChain agents, evals, FastAPI, deterministic scaffolding.
+Applied AI reliability — production RAG, agents, evals, FastAPI, and deterministic scaffolding.
 
-> **Last updated: 2026-09-13.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
+> **Last updated: 2026-09-14.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
