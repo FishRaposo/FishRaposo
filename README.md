@@ -4,7 +4,7 @@
 
 Applied AI reliability — production RAG, agents, evals, FastAPI, and deterministic scaffolding.
 
-> **Last updated: 2026-09-14.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
+> **Last updated: 2026-09-25.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
 
 Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
 
@@ -36,7 +36,7 @@ The interesting part: Expat Money helps people structure their lives across juri
 
 These six are the profile pins — the system, not a junk drawer.
 
-- **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** — Production-grade WH-347 compliance platform: deterministic validation decides, the LLM explains, every decision traceable. The CV summarizes it as 270 unit tests; the full receipt records 367 public tests across five service bins plus four tooling checks, with an offline-verifiable evidence bundle.
+- **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** — Production-grade WH-347 compliance platform: deterministic validation decides, the LLM explains, every decision traceable. 367 public tests across five service bins plus four tooling checks, with an offline-verifiable evidence bundle.
 - **[groundtruth](https://github.com/FishRaposo/groundtruth)** — Canonical production RAG platform: hybrid search, citations, refusal logic.
 - **[aria-agent](https://github.com/FishRaposo/aria-agent)** — Canonical clean-break agent harness: approval gates, execution tracing, progressive-disclosure Agent Skills.
 - **[evalforge](https://github.com/FishRaposo/evalforge)** — Regression testing for RAG and agentic AI: retrieval and conversational evaluations (lineage: rag-evaluation-lab, ai-support-simulator).
