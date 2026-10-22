@@ -1,71 +1,43 @@
-# Vinícius Raposo (FishRaposo)
+# Vinícius Raposo — Fish
 
-**I build the systems that work while you don't.**
+**Applied AI Reliability Engineer.** I build the systems that work while you don't. Applied AI reliability: production RAG with citations and refusal, agents with tools, state, and guardrails, evaluation harnesses, and deterministic scaffolding around the model.
 
-Applied AI reliability — production RAG, agents, evals, FastAPI, and deterministic scaffolding.
+One design rule runs through all of it: the model never gets the final say. Deterministic code decides, the model explains, retrieval is grounded in your own data, and the system refuses when it can't back an answer. Each piece ships with a way to check it (tests, evals, traces), so you can see whether it still works after the next change. It matters most where a wrong answer costs money.
 
-> **Last updated: 2026-09-25.** The shipped/high-signal repos below are the current proof; the full catalog lives on the portfolio site.
+## What I help with
 
-Most AI demos look great until they meet real users, messy data, or production constraints. I build the opposite.
+- **Coding agents that follow your workflow.** Claude Code and similar agents set up for your repo: project instructions, permissions, hooks that run your checks, MCP tool connections and guardrails.
+- **AI-built apps that break in production.** A written audit of what breaks and what to fix first, then fixes with tests so they stay fixed.
+- **RAG and agent systems that cite, refuse and hand off** instead of guessing, with evaluations that catch regressions.
 
-This isn't cost arbitrage. It's engineering arbitrage.
+Fixed prices and written scope, through [Upwork](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3). Open to remote applied-AI roles.
 
-**Now:** Founding Engineer at Zap Viagens — privacy-first, self-hosted AI products (CRM automation, campaign generation) on open-source models for service businesses.
+## Proof
 
----
+Public, MIT-licensed, with tests you can run yourself.
 
-## What I Build
+| Repo | What it is | Evidence |
+|---|---|---|
+| **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** | Five-service WH-347 compliance platform: deterministic validation decides, the LLM explains, every decision traceable. | 367 tests, checksum-verified evidence |
+| **[groundtruth](https://github.com/FishRaposo/groundtruth)** | Production RAG platform: hybrid search, citations, refusal logic. | 291 API + 47 web tests, 8/8 browser smoke checks |
+| **[evalforge](https://github.com/FishRaposo/evalforge)** | Regression testing for RAG and agentic AI. | Retrieval and conversational evaluations |
+| **[aria-agent](https://github.com/FishRaposo/aria-agent)** | Agent harness with approval gates and execution tracing. | 200 Python + 12 Agent Skills + 31 frontend tests; Ruff and Pyright clean |
+| **[agenttrace](https://github.com/FishRaposo/agenttrace)** | Agent observability and replay SDK with cost attribution. | 132 SDK + 98 collector + 24 dashboard tests |
 
-Systems that work in production. Not demos that break on real data.
+The full public catalog, with a page per project: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
 
-Production AI is the execution surface: RAG pipelines with grounded retrieval, evaluation flows that catch regressions, agent infrastructure that does not trust the LLM, and observability so you know what is failing and why. The recurring move: discover the method with expensive intelligence, encode it as deterministic software and policy, let cheap models execute it reliably. The nondeterminism doesn't disappear — it stops mattering.
+## Before
 
-**The proof, quantified:** my personal benchmark reverse-engineers NDS ROMs with byte-level verification. Frontier models score 6–8/10 bare, with high variance. Under my spec/skill scaffolding: 10/10, variance zero.
+AI Lead at Expat Money, Jun 2022 – Nov 2025. Created and led the AI function from zero. Cut AI-for-content costs 90% — replaced a $200/month tool with a $20/month one — and halved content production time. Built grounded retrieval for cross-jurisdiction expat planning — a domain where wrong answers have real consequences.
 
----
+## Writing
 
-## The Anchor: Expat Money
+**[Taste Is All You Need](https://x.com/FishRaposo/status/2080404528692924696)** — long-form analysis of agent-harness economics: why scaffolding beats model spend. Backed by a personal agent-scaffolding benchmark reverse-engineering NDS ROMs with byte-level verification: frontier models score 6–8/10 unaided with high variance; under my spec/skill scaffolding, 10/10 with zero variance.
 
-Jun 2022 – Nov 2025 creating and leading the AI function inside a real business — not side projects. Internal assistants, content-generation pipelines, scraping workflows, RAG systems, business automation. The result: AI for content creation cost cut ~90% — a $200/month subscription replaced by a custom GPT on ChatGPT Plus — and content production time halved.
+## Links
 
-The interesting part: Expat Money helps people structure their lives across jurisdictions — flag theory, expat planning, financial sovereignty. The AI wasn't decoration. It was how a business built around individual autonomy automated the labor of producing expert knowledge at scale. That's what grounded retrieval looks like in a domain where wrong answers have real consequences.
+[Portfolio](https://fishraposo.github.io) · [X](https://x.com/FishRaposo) · [Upwork](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3) · fishraposo@gmail.com
 
----
+Send me what's breaking. I'll tell you specifically what's wrong before you spend a dollar.
 
-## Start Here: Current Public Proof
-
-These six are the profile pins — the system, not a junk drawer.
-
-- **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** — Production-grade WH-347 compliance platform: deterministic validation decides, the LLM explains, every decision traceable. 367 public tests across five service bins plus four tooling checks, with an offline-verifiable evidence bundle.
-- **[groundtruth](https://github.com/FishRaposo/groundtruth)** — Canonical production RAG platform: hybrid search, citations, refusal logic.
-- **[aria-agent](https://github.com/FishRaposo/aria-agent)** — Canonical clean-break agent harness: approval gates, execution tracing, progressive-disclosure Agent Skills.
-- **[evalforge](https://github.com/FishRaposo/evalforge)** — Regression testing for RAG and agentic AI: retrieval and conversational evaluations (lineage: rag-evaluation-lab, ai-support-simulator).
-- **[agenttrace](https://github.com/FishRaposo/agenttrace)** — Agent observability and replay SDK with cost attribution, prompt-cost reporting, and an absorbed safety-bounded issue→draft-PR workflow (lineage: llm-cost-latency-monitor, github-issue-pr-agent; source archived).
-- **[llm-gateway](https://github.com/FishRaposo/llm-gateway)** — LLM proxy with routing, guardrails, cost control, and fallback across providers.
-
-Also ship (not pinned): **[command-code-mods](https://github.com/FishRaposo/command-code-mods)** — Command Code mods for planning, verified follow-through, gated memory, and skill learning.
-
-Writing: *[Taste Is All You Need](https://x.com/FishRaposo/status/2080404528692924696)* — a long-form analysis of agent-harness economics and why scaffolding beats model spend.
-
-**How to review this profile:** the [WCP V5 verification table](https://github.com/FishRaposo/WCP-Compliance-Agent-V5#current-verification-state), [evalforge](https://github.com/FishRaposo/evalforge), and the Taste essay. That is the interview.
-
----
-
-## Full Public Repo Catalog
-
-The full public repo catalog lives on the portfolio, each project with its own page:
-
-**[fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html)**
-
-The catalog separates highlighted shipped systems, supporting infrastructure, meta/profile repos, and archive/study repos.
-
----
-
-## Contact
-
-- **Site:** [fishraposo.github.io](https://fishraposo.github.io) — full project catalog
-- **X:** [@FishRaposo](https://x.com/FishRaposo)
-- **Upwork:** [upwork.com/freelancers/~01ca94c53d0d0101f3](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3) — freelance engagements; everything above is the due diligence
-- **Email:** [fishraposo@gmail.com](mailto:fishraposo@gmail.com)
-
-Send me your broken AI workflow. I'll tell you what's breaking, why it's breaking, and the fastest path to a system your team can actually depend on.
+<sub>Last updated: 2026-10-22</sub>
