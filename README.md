@@ -4,13 +4,27 @@
 
 One design rule runs through all of it: the model never gets the final say. Deterministic code decides, the model explains, retrieval is grounded in your own data, and the system refuses when it can't back an answer. Each piece ships with a way to check it (tests, evals, traces), so you can see whether it still works after the next change. It matters most where a wrong answer costs money.
 
+## Two minutes, three screens
+
+Sample-data demos from the public repos. Click a screen for its walkthrough.
+
+<table>
+<tr>
+<td width="33%" valign="top"><a href="https://fishraposo.github.io/projects/wcp-compliance-agent-v5.html"><img src="https://fishraposo.github.io/images/portfolio/wcp-decision.png" alt="WCP V5 audit station: a payroll rejected on three deterministic violations"></a><br><sub><b>Checks decide.</b> A WH-347 payroll rejected on three deterministic violations; the LLM explains, a human reviews.</sub></td>
+<td width="33%" valign="top"><a href="https://fishraposo.github.io/projects/groundtruth.html"><img src="https://fishraposo.github.io/images/portfolio/gt-refusal.png" alt="groundtruth refusing a question the corpus cannot support"></a><br><sub><b>It refuses.</b> A question the corpus can't support gets an explicit refusal and a retrieval trace, not a guess.</sub></td>
+<td width="33%" valign="top"><a href="https://fishraposo.github.io/projects/evalforge.html"><img src="https://fishraposo.github.io/images/portfolio/eval-case.png" alt="evalforge failed retrieval case with judge scores"></a><br><sub><b>It catches regressions.</b> A retrieval regression flagged by judges before it ships.</sub></td>
+</tr>
+</table>
+
+Every repo below has a sample-data portfolio demo; its README has the commands.
+
 ## What I help with
 
 - **Coding agents that follow your workflow.** Claude Code and similar agents set up for your repo: project instructions, permissions, hooks that run your checks, MCP tool connections and guardrails.
 - **AI-built apps that break in production.** A written audit of what breaks and what to fix first, then fixes with tests so they stay fixed.
 - **RAG and agent systems that cite, refuse and hand off** instead of guessing, with evaluations that catch regressions.
 
-Fixed prices and written scope, through [Upwork](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3). Open to remote applied-AI roles.
+Fixed prices and written scope, through [Upwork](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3). Open to remote applied-AI roles (full-time or contract).
 
 ## Proof
 
@@ -24,7 +38,7 @@ Public, MIT-licensed, with tests you can run yourself.
 | **[aria-agent](https://github.com/FishRaposo/aria-agent)** | Agent harness with approval gates and execution tracing. | 200 Python + 12 Agent Skills + 31 frontend tests; Ruff and Pyright clean |
 | **[agenttrace](https://github.com/FishRaposo/agenttrace)** | Agent observability and replay SDK with cost attribution. | 132 SDK + 98 collector + 24 dashboard tests |
 
-The full public catalog, with a page per project: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
+Each project has a page with its verified results and walkthrough. Full catalog: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
 
 ## Before
 
