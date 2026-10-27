@@ -44,17 +44,23 @@ These are portfolio systems with sample data, not hosted deployments. Each proje
 
 ## Games
 
-Games and game tools, built with the same habit: each one ships a way to check it.
+Three small games, each built to be broken on purpose. Every one ships a task pack: planted gameplay bugs and feature requests, each with a brief, acceptance criteria (input sequence, expected visual outcome, verifiable game state), a reference solution and an automated check that fails on the starting state and passes on the solution.
 
-<a href="https://fishraposo.github.io/projects/recall.html"><img src="https://fishraposo.github.io/images/portfolio/recall-demo.gif" alt="Recall: the blade flies out, cuts through enemies and curves back to the player" width="480"></a>
+<table>
+<tr>
+<td width="33%" valign="top"><a href="https://fishraposo.github.io/projects/recall.html"><img src="https://fishraposo.github.io/images/portfolio/recall-demo.gif" alt="Recall: the blade flies out, cuts through enemies and curves back"></a></td>
+<td width="33%" valign="top"><a href="https://fishraposo.github.io/projects/wick.html"><img src="https://fishraposo.github.io/images/portfolio/wick-demo.gif" alt="Wick: lantern light on a procedurally generated floor"></a></td>
+<td width="33%" valign="top"><a href="https://fishraposo.github.io/projects/thaw.html"><img src="https://fishraposo.github.io/images/portfolio/thaw-demo.gif" alt="Thaw: a crate kicked into water becomes a bridge to the hut"></a></td>
+</tr>
+</table>
 
 | Repo | What it is | Evidence |
 |---|---|---|
-| **[recall](https://github.com/FishRaposo/recall)** | Browser arcade game in plain JavaScript, no engine and no asset files: one throwing blade that comes back, five enemy types, synthesized sound. Ships a [task pack](https://github.com/FishRaposo/recall/tree/main/tasks): four planted gameplay bugs and two feature requests, each with a brief, acceptance criteria (input sequence, expected visual outcome, verifiable game state), a reference solution and a headless check. | 18 unit tests; every task check fails on its starting state and passes on its reference solution |
-| **[material-progression](https://github.com/FishRaposo/material-progression)** | NeoForge Minecraft mod in Java rebuilding progression around geology, metallurgy and workshops, with the full design written alongside the code. | Local 0.2.0 release candidate; not yet a public release |
-| **[game-systems-sandbox](https://github.com/FishRaposo/game-systems-sandbox)** | Seeded Monte Carlo simulators for combat, loot, XP and economy balance, with a dashboard that runs offline on demo data. | 173 Python tests; 56 root + 39 dashboard Vitest tests |
+| **[recall](https://github.com/FishRaposo/recall)** | Arcade action: one throwing blade that always comes back; catching it after a hit raises your multiplier. Hitstop, screen shake, input buffering, synthesized sound. | 18 unit tests; [task pack](https://github.com/FishRaposo/recall/tree/main/tasks) of 4 bugs + 2 features, each verified fail → pass in headless Chromium |
+| **[wick](https://github.com/FishRaposo/wick)** | Turn-based roguelike where lantern oil is your field of view: procedural floors, shadowcasting, Dijkstra-map AI (moths chase the light, shades flee it, hounds hunt by sound). | 18 unit tests incl. connectivity over 1,800 generated floors; [task pack](https://github.com/FishRaposo/wick/tree/main/tasks) of 2 bugs + 1 feature |
+| **[thaw](https://github.com/FishRaposo/thaw)** | Ice-sliding puzzle game in twelve rooms, with a breadth-first solver that proves every one. | 19 unit tests, all 12 levels re-solved at par each run; [task pack](https://github.com/FishRaposo/thaw/tree/main/tasks) of 2 bugs + 1 feature |
 
-All three: [fishraposo.github.io/#games](https://fishraposo.github.io/#games).
+Also: [material-progression](https://github.com/FishRaposo/material-progression) (NeoForge Minecraft mod in Java; local 0.2.0 release candidate) and [game-systems-sandbox](https://github.com/FishRaposo/game-systems-sandbox) (seeded Monte Carlo balance simulators). All of it: [fishraposo.github.io/#games](https://fishraposo.github.io/#games).
 
 ## Before
 
