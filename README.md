@@ -44,6 +44,23 @@ These are portfolio systems with sample data, not hosted deployments. Each proje
 
 ## Games
 
+The first code I ever wrote was a game mod, at 11. Gaming led to modding, modding led to ROM hacking and reverse engineering, and that led to game development proper. Thousands of hours across design theory and building, none of it professional yet. This section is the bridge.
+
+**How I got here**
+- **Modding first.** Tweaking other people's games is how I learned to program, and I still build mods: [material-progression](https://github.com/FishRaposo/material-progression) rebuilds Minecraft's progression around geology, metallurgy and workshops, because that's the game I wanted to play (NeoForge, Java; local 0.2.0 release candidate).
+- **ROM hacking and reverse engineering.** My own ROM hacks and the tooling to make them. The same skill set sits under my agent-scaffolding benchmark, which reverse-engineers NDS ROMs with byte-level verification (see Writing below).
+- **Engines.** Unity, Godot and Unreal, mostly prototyping and learning each one's way of doing things.
+- **Theory.** *Level Up!* and other design books, courses, and a lot of developer channels. Portal is the game I've studied most closely, front to back.
+
+**What I believe**
+- A game is a business from the first day. Monetization and marketing get designed in from the start; bolted on at the end, they don't work.
+- Use every tool available, AI above all. The games below were built with AI assistance to my brief, and each one is tested like production software.
+- Genre is not a wall. I can talk design from MMORPGs to life sims to puzzle games, and the systems underneath (progression, economies, combat, procedural generation) carry across.
+
+**What I bring:** game design and systems, the code that implements them, and the test design that proves they work. I'm not a visual artist: my games use code-drawn and AI-generated art and asset packs, and I've worked with human artists before.
+
+**Built for game-dev roles**
+
 Three small games, each built to be broken on purpose. Every one ships a task pack: planted gameplay bugs and feature requests, each with a brief, acceptance criteria (input sequence, expected visual outcome, verifiable game state), a reference solution and an automated check that fails on the starting state and passes on the solution.
 
 <table>
@@ -60,7 +77,9 @@ Three small games, each built to be broken on purpose. Every one ships a task pa
 | **[wick](https://github.com/FishRaposo/wick)** | Turn-based roguelike where lantern oil is your field of view: procedural floors, shadowcasting, Dijkstra-map AI (moths chase the light, shades flee it, hounds hunt by sound). | 18 unit tests incl. connectivity over 1,800 generated floors; [task pack](https://github.com/FishRaposo/wick/tree/main/tasks) of 2 bugs + 1 feature |
 | **[thaw](https://github.com/FishRaposo/thaw)** | Ice-sliding puzzle game in twelve rooms, with a breadth-first solver that proves every one. | 19 unit tests, all 12 levels re-solved at par each run; [task pack](https://github.com/FishRaposo/thaw/tree/main/tasks) of 2 bugs + 1 feature |
 
-Also: [material-progression](https://github.com/FishRaposo/material-progression) (NeoForge Minecraft mod in Java; local 0.2.0 release candidate) and [game-systems-sandbox](https://github.com/FishRaposo/game-systems-sandbox) (seeded Monte Carlo balance simulators). All of it: [fishraposo.github.io/#games](https://fishraposo.github.io/#games).
+Also: [game-systems-sandbox](https://github.com/FishRaposo/game-systems-sandbox), a portfolio piece of seeded Monte Carlo balance simulators. All of it: [fishraposo.github.io/#games](https://fishraposo.github.io/#games).
+
+I'm open to game-dev evaluation and task-design work (training and testing AI on game development), game design roles, and building my own games.
 
 ## Before
 
