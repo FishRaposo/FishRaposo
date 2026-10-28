@@ -37,10 +37,12 @@ Public, MIT-licensed, with tests you can run yourself. Each repo has a verificat
 | **[groundtruth](https://github.com/FishRaposo/groundtruth)** | RAG application that cites every answer and refuses what its sources can't support: hybrid retrieval, versioned documents, human review. | 331 API + 62 web tests; real-HTTP workflow and restart checks |
 | **[evalforge](https://github.com/FishRaposo/evalforge)** | Regression gate for RAG and agents that catches answers which look right but cite the wrong evidence, with pass / fail / indeterminate release exits. | 358 Python + 36 frontend tests |
 | **[aria-agent](https://github.com/FishRaposo/aria-agent)** | Agent harness whose approvals bind the exact action, with execution tracing and a Claude Code setup fixture (permissions, blocking hooks, independent verifier). | 360 Python + 64 frontend tests |
-| **[agenttrace](https://github.com/FishRaposo/agenttrace)** | Tracing SDK, collector and dashboard that find the failing step across concurrent AI workflows, with cost attribution. | 171 SDK + 124 collector + 41 dashboard tests |
+| **[policydesk](https://github.com/FishRaposo/policydesk)** | Offline policy sandbox with deterministic refund rules, synthetic replay, and simulated human approvals. | [Synthetic reports](https://github.com/FishRaposo/policydesk/tree/main/reports) · [editable sandbox](https://fishraposo.github.io/policydesk/); no real-model benchmark |
 | **[llm-gateway](https://github.com/FishRaposo/llm-gateway)** | LLM proxy with routing, guardrails, atomic per-key budgets, and failover across OpenAI, Anthropic, Gemini, and Ollama. | 177 backend + 41 dashboard tests |
 
-These are portfolio systems with sample data, not hosted deployments. Each project page has its walkthrough and verified results. Full catalog: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
+Also: **[agenttrace](https://github.com/FishRaposo/agenttrace)**, the tracing SDK, collector and dashboard, remains in the [catalog](https://fishraposo.github.io/projects/agenttrace.html).
+
+These are portfolio systems with sample data. PolicyDesk has a static synthetic-data sandbox; no live model or financial backend is hosted. Each project page has its walkthrough and verified results. Full catalog: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
 
 ## Games
 
@@ -102,4 +104,4 @@ I'm open to game-dev evaluation and task-design work (training and testing AI on
 
 Send me what you're tired of babysitting. I'll tell you specifically what's wrong before you spend a dollar.
 
-<sub>Last updated: 2026-10-27</sub>
+<sub>Last updated: 2026-10-28</sub>
