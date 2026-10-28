@@ -69,6 +69,11 @@ Three small games, each built to be broken on purpose. Every one ships a task pa
 <td width="33%" valign="top"><a href="https://fishraposo.github.io/projects/wick.html"><img src="https://fishraposo.github.io/images/portfolio/wick-demo.gif" alt="Wick: lantern light on a procedurally generated floor"></a></td>
 <td width="33%" valign="top"><a href="https://fishraposo.github.io/projects/thaw.html"><img src="https://fishraposo.github.io/images/portfolio/thaw-demo.gif" alt="Thaw: a crate kicked into water becomes a bridge to the hut"></a></td>
 </tr>
+<tr>
+<td align="center"><a href="https://fishraposo.itch.io/recall"><b>▶ Play Recall on itch.io</b></a></td>
+<td align="center"><a href="https://fishraposo.itch.io/wick"><b>▶ Play Wick on itch.io</b></a></td>
+<td align="center"><a href="https://fishraposo.itch.io/thaw"><b>▶ Play Thaw on itch.io</b></a></td>
+</tr>
 </table>
 
 | Repo | What it is | Evidence |
@@ -77,7 +82,7 @@ Three small games, each built to be broken on purpose. Every one ships a task pa
 | **[wick](https://github.com/FishRaposo/wick)** | Turn-based roguelike where lantern oil is your field of view: procedural floors, shadowcasting, Dijkstra-map AI (moths chase the light, shades flee it, hounds hunt by sound). | 18 unit tests incl. connectivity over 1,800 generated floors; [task pack](https://github.com/FishRaposo/wick/tree/main/tasks) of 2 bugs + 1 feature |
 | **[thaw](https://github.com/FishRaposo/thaw)** | Ice-sliding puzzle game in twelve rooms, with a breadth-first solver that proves every one. | 19 unit tests, all 12 levels re-solved at par each run; [task pack](https://github.com/FishRaposo/thaw/tree/main/tasks) of 2 bugs + 1 feature |
 
-Also: [game-systems-sandbox](https://github.com/FishRaposo/game-systems-sandbox), a portfolio piece of seeded Monte Carlo balance simulators. All of it: [fishraposo.github.io/#games](https://fishraposo.github.io/#games).
+Also: [game-systems-sandbox](https://github.com/FishRaposo/game-systems-sandbox), a portfolio piece of seeded Monte Carlo balance simulators. All three play in the browser on [itch.io](https://fishraposo.itch.io); everything else: [fishraposo.github.io/#games](https://fishraposo.github.io/#games).
 
 I'm open to game-dev evaluation and task-design work (training and testing AI on game development), game design roles, and building my own games.
 
