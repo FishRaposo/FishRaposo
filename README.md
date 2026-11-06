@@ -21,8 +21,8 @@ Sample-data demos from the public repos. Click a screen for its walkthrough.
 
 ## What I help with
 
-- **Coding agents you can let run.** Claude Code set up for your repo: project instructions, permissions, hooks that block what shouldn't happen and run your checks, MCP connections and guardrails.
 - **AI-built apps that keep breaking in production.** A written audit of what breaks and what to fix first, then fixes, each with a test so it stays fixed.
+- **Coding agents you can let run.** Claude Code set up for your repo: project instructions, permissions, hooks that block what shouldn't happen and run your checks, MCP connections and guardrails.
 - **RAG and agent systems that cite, refuse and hand off** instead of guessing, with evaluations that catch regressions.
 
 Fixed prices and written scope, through [Upwork](https://www.upwork.com/freelancers/~01ca94c53d0d0101f3). Open to remote applied-AI roles (full-time or contract).
