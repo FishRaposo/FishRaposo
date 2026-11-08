@@ -11,11 +11,10 @@ Sample-data demos from the public repos. Click a screen for its walkthrough.
 <table>
 <tr>
 <td width="50%" valign="top"><a href="https://fishraposo.github.io/projects/wcp-compliance-agent-v5.html"><img src="https://fishraposo.github.io/images/portfolio/wcp-decision.png" alt="WCP V5 audit station: a payroll rejected on three deterministic violations"></a><br><sub><b>Checks decide.</b> A WH-347 payroll rejected on three deterministic violations. The LLM explains; it can't approve what the checks didn't verify.</sub></td>
-<td width="50%" valign="top"><a href="https://fishraposo.github.io/projects/groundtruth.html"><img src="https://fishraposo.github.io/images/portfolio/gt-refusal.png" alt="groundtruth refusing a question the corpus cannot support"></a><br><sub><b>It refuses.</b> A question the sources can't support gets an explicit refusal and a retrieval trace, not a guess.</sub></td>
+<td width="50%" valign="top"><a href="https://fishraposo.github.io/projects/evalforge.html"><img src="https://fishraposo.github.io/images/portfolio/eval-case.png" alt="evalforge failed retrieval case with judge scores"></a><br><sub><b>It tells you what broke.</b> An answer that looks right but cites the wrong evidence, failed before it ships.</sub></td>
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://fishraposo.github.io/projects/aria-agent.html"><img src="https://fishraposo.github.io/images/portfolio/aria-blocked.png" alt="ARIA blocking a prompt-injection attempt before any model call"></a><br><sub><b>It stops itself.</b> A prompt-injection attempt blocked before a single model call.</sub></td>
-<td width="50%" valign="top"><a href="https://fishraposo.github.io/projects/evalforge.html"><img src="https://fishraposo.github.io/images/portfolio/eval-case.png" alt="evalforge failed retrieval case with judge scores"></a><br><sub><b>It tells you what broke.</b> An answer that looks right but cites the wrong evidence, failed before it ships.</sub></td>
 </tr>
 </table>
 
@@ -34,7 +33,6 @@ Public, MIT-licensed, with tests you can run yourself. Each repo has a verificat
 | Repo | What it does when nobody's watching | Evidence |
 |---|---|---|
 | **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** | Five-service WH-347 payroll compliance platform: deterministic validation decides, the LLM explains, and unverified wage coverage goes to human review instead of approval. | 377 tests, including evals over 100 golden examples; checksum-verified evidence |
-| **[groundtruth](https://github.com/FishRaposo/groundtruth)** | RAG application that cites every answer and refuses what its sources can't support: hybrid retrieval, versioned documents, human review. | 331 API + 62 web tests; real-HTTP workflow and restart checks |
 | **[evalforge](https://github.com/FishRaposo/evalforge)** | Regression gate for RAG and agents that catches answers which look right but cite the wrong evidence, with pass / fail / indeterminate release exits. | 358 Python + 36 frontend tests |
 | **[aria-agent](https://github.com/FishRaposo/aria-agent)** | Agent harness whose approvals bind the exact action, with execution tracing and a Claude Code setup fixture (permissions, blocking hooks, independent verifier). | 360 Python + 64 frontend tests |
 | **[policydesk](https://github.com/FishRaposo/policydesk)** | Policy sandbox with deterministic refund rules, synthetic replay, simulated approvals, and opt-in local OpenAI testing. | [Synthetic reports](https://github.com/FishRaposo/policydesk/tree/main/reports) · [offline sandbox](https://fishraposo.github.io/policydesk/) · [local OpenAI setup](https://github.com/FishRaposo/policydesk#try-openai-locally-with-your-own-key) · [clean-install verification](https://github.com/FishRaposo/policydesk/blob/main/docs/SETUP_VERIFICATION.md) |
