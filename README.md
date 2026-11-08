@@ -17,6 +17,10 @@ Sample-data demos from the public repos. Click a screen for its walkthrough.
 <td width="50%" valign="top"><a href="https://fishraposo.github.io/projects/aria-agent.html"><img src="https://fishraposo.github.io/images/portfolio/aria-blocked.png" alt="ARIA blocking a prompt-injection attempt before any model call"></a><br><sub><b>It stops itself.</b> A prompt-injection attempt blocked before a single model call.</sub></td>
 <td width="50%" valign="top"><a href="https://fishraposo.github.io/projects/agenttrace.html"><img src="https://fishraposo.github.io/images/portfolio/trace-timeline.png" alt="AgentTrace run detail with cost attributed per span type"></a><br><sub><b>It shows where the money went.</b> One completed trace, cost attributed per span type — $0.0186, two thirds of it in the model call.</sub></td>
 </tr>
+<tr>
+<td width="50%" valign="top"><a href="https://fishraposo.github.io/projects/entrega-clara.html"><img src="https://fishraposo.github.io/images/portfolio/entre-01-cover.png" alt="Entrega Clara customer tracking on a real OpenStreetMap graph"></a><br><sub><b>The courier drives the computed route.</b> A delivery platform on real São Paulo streets, with a measured solver ladder underneath.</sub></td>
+<td width="50%" valign="top"><a href="https://fishraposo.github.io/entrega-clara/"><img src="https://fishraposo.github.io/images/portfolio/entre-03-lab.png" alt="Entrega Clara static lab replaying ALT and Dijkstra"></a><br><sub><b>One route, two searches.</b> The static lab replays ALT 70 vs Dijkstra 167 in the browser — no install, no backend.</sub></td>
+</tr>
 </table>
 
 ## What I help with
@@ -33,14 +37,15 @@ Public, MIT-licensed, with tests you can run yourself. Each repo has a verificat
 
 | Repo | What it does when nobody's watching | Evidence |
 |---|---|---|
-| **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** | Five-service WH-347 payroll compliance platform: deterministic validation decides, the LLM explains, and unverified wage coverage goes to human review instead of approval. | 377 tests, including evals over 100 golden examples; checksum-verified evidence |
+| **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** | Five-service WH-347 payroll compliance platform: deterministic validation decides, the LLM explains, and unverified wage coverage goes to human review instead of approval. | 390 tests, including evals over 100 golden examples; checksum-verified evidence |
 | **[evalforge](https://github.com/FishRaposo/evalforge)** | Regression gate for RAG and agents that catches answers which look right but cite the wrong evidence, with pass / fail / indeterminate release exits. | 358 Python + 36 frontend tests |
 | **[aria-agent](https://github.com/FishRaposo/aria-agent)** | Agent harness whose approvals bind the exact action, with execution tracing and a Claude Code setup fixture (permissions, blocking hooks, independent verifier). | 360 Python + 64 frontend tests |
 | **[policydesk](https://github.com/FishRaposo/policydesk)** | Policy sandbox with deterministic refund rules, synthetic replay, simulated approvals, and opt-in local OpenAI testing. | [Synthetic reports](https://github.com/FishRaposo/policydesk/tree/main/reports) · [offline sandbox](https://fishraposo.github.io/policydesk/) · [local OpenAI setup](https://github.com/FishRaposo/policydesk#try-openai-locally-with-your-own-key) · [clean-install verification](https://github.com/FishRaposo/policydesk/blob/main/docs/SETUP_VERIFICATION.md) |
 | **[agenttrace](https://github.com/FishRaposo/agenttrace)** | Tracing SDK, collector and dashboard that name the failing step inside overlapping agent runs, with cost attributed per span. | [Captures](https://fishraposo.github.io/agenttrace/), verification record |
+| **[entrega-clara](https://github.com/FishRaposo/entrega-clara)** | Application proof: São Paulo food-delivery platform on a real OpenStreetMap graph, with time-dependent routing, precedence-aware batching, SSE tracking and an optional PostgreSQL adapter. | [Live lab](https://fishraposo.github.io/entrega-clara/) · 291 backend + 19 frontend tests · [v0.1.0](https://github.com/FishRaposo/entrega-clara/releases/tag/v0.1.0) |
 | **[llm-gateway](https://github.com/FishRaposo/llm-gateway)** | LLM proxy with routing, guardrails, atomic per-key budgets, and failover across OpenAI, Anthropic, Gemini, and Ollama. | 177 backend + 41 dashboard tests |
 
-These are portfolio systems with sample data. PolicyDesk supports local OpenAI testing with your own key; its public sandbox remains offline with synthetic data. OpenAI integration implemented; live verification and empirical results not yet performed. No model or financial backend is hosted. Each project page has its walkthrough and verified results. Full catalog: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
+These are portfolio systems with sample data. PolicyDesk supports local OpenAI testing with your own key; its public sandbox remains offline with synthetic data. OpenAI integration implemented; live verification and empirical results not yet performed. No model or financial backend is hosted. Entrega Clara's live surface is the static lab; its API and web shell stay local. Each project page has its walkthrough and verified results. Full catalog: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
 
 ## Games
 
@@ -102,4 +107,4 @@ I'm open to game-dev evaluation and task-design work (training and testing AI on
 
 Send me what you're tired of babysitting. I'll tell you specifically what's wrong before you spend a dollar.
 
-<sub>Last updated: 2026-10-28</sub>
+<sub>Last updated: 2026-11-08</sub>
