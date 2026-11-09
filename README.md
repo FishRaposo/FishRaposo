@@ -38,14 +38,14 @@ Public, MIT-licensed, with tests you can run yourself. Each repo has a verificat
 | Repo | What it does when nobody's watching | Evidence |
 |---|---|---|
 | **[WCP-Compliance-Agent-V5](https://github.com/FishRaposo/WCP-Compliance-Agent-V5)** | Five-service WH-347 payroll compliance platform: deterministic validation decides, the LLM explains, and unverified wage coverage goes to human review instead of approval. | 390 tests, including evals over 100 golden examples; checksum-verified evidence |
-| **[evalforge](https://github.com/FishRaposo/evalforge)** | Regression gate for RAG and agents that catches answers which look right but cite the wrong evidence, with pass / fail / indeterminate release exits. | 358 Python + 36 frontend tests |
+| **[evalforge](https://github.com/FishRaposo/evalforge)** | Regression gate for RAG and agents that catches answers which look right but cite the wrong evidence, with pass / fail / indeterminate release exits. | 446 Python + 40 frontend tests |
 | **[aria-agent](https://github.com/FishRaposo/aria-agent)** | Agent harness whose approvals bind the exact action, with execution tracing and a Claude Code setup fixture (permissions, blocking hooks, independent verifier). | 360 Python + 64 frontend tests |
 | **[policydesk](https://github.com/FishRaposo/policydesk)** | Policy sandbox with deterministic refund rules, synthetic replay, simulated approvals, and opt-in local OpenAI testing. | [Synthetic reports](https://github.com/FishRaposo/policydesk/tree/main/reports) · [offline sandbox](https://fishraposo.github.io/policydesk/) · [local OpenAI setup](https://github.com/FishRaposo/policydesk#try-openai-locally-with-your-own-key) · [clean-install verification](https://github.com/FishRaposo/policydesk/blob/main/docs/SETUP_VERIFICATION.md) |
 | **[agenttrace](https://github.com/FishRaposo/agenttrace)** | Tracing SDK, collector and dashboard that name the failing step inside overlapping agent runs, with cost attributed per span. | [Captures](https://fishraposo.github.io/agenttrace/), verification record |
 | **[entrega-clara](https://github.com/FishRaposo/entrega-clara)** | Application proof: São Paulo food-delivery platform on a real OpenStreetMap graph, with time-dependent routing, precedence-aware batching, SSE tracking and an optional PostgreSQL adapter. | [Live lab](https://fishraposo.github.io/entrega-clara/) · 291 backend + 19 frontend tests · [v0.1.0](https://github.com/FishRaposo/entrega-clara/releases/tag/v0.1.0) |
-| **[llm-gateway](https://github.com/FishRaposo/llm-gateway)** | LLM proxy with routing, guardrails, atomic per-key budgets, and failover across OpenAI, Anthropic, Gemini, and Ollama. | 177 backend + 41 dashboard tests |
+| **[llm-gateway](https://github.com/FishRaposo/llm-gateway)** | LLM proxy with routing, guardrails, atomic per-key budgets, and failover across OpenAI, Anthropic, Gemini, and Ollama. | 246 backend + 41 dashboard tests |
 
-These are portfolio systems with sample data. PolicyDesk supports local OpenAI testing with your own key; its public sandbox remains offline with synthetic data. OpenAI integration implemented; live verification and empirical results not yet performed. No model or financial backend is hosted. Entrega Clara's live surface is the static lab; its API and web shell stay local. Each project page has its walkthrough and verified results. Full catalog: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
+These are portfolio systems with sample data, not hosted deployments. PolicyDesk supports local OpenAI testing with your own key; its public sandbox remains offline with synthetic data. Entrega Clara's live surface is the static lab; its API and web shell stay local. Each project page has its walkthrough and verified results. Full catalog: [fishraposo.github.io/projects.html](https://fishraposo.github.io/projects.html).
 
 ## Games
 
@@ -83,9 +83,9 @@ Three small games, each built to be broken on purpose. Every one ships a task pa
 
 | Repo | What it is | Evidence |
 |---|---|---|
-| **[recall](https://github.com/FishRaposo/recall)** | Arcade action: one throwing blade that always comes back; catching it after a hit raises your multiplier. Hitstop, screen shake, input buffering, synthesized sound. | 18 unit tests; [task pack](https://github.com/FishRaposo/recall/tree/main/tasks) of 4 bugs + 2 features, each verified fail → pass in headless Chromium |
-| **[wick](https://github.com/FishRaposo/wick)** | Turn-based roguelike where lantern oil is your field of view: procedural floors, shadowcasting, Dijkstra-map AI (moths chase the light, shades flee it, hounds hunt by sound). | 18 unit tests incl. connectivity over 1,800 generated floors; [task pack](https://github.com/FishRaposo/wick/tree/main/tasks) of 2 bugs + 1 feature |
-| **[thaw](https://github.com/FishRaposo/thaw)** | Ice-sliding puzzle game in twelve rooms, with a breadth-first solver that proves every one. | 19 unit tests, all 12 levels re-solved at par each run; [task pack](https://github.com/FishRaposo/thaw/tree/main/tasks) of 2 bugs + 1 feature |
+| **[recall](https://github.com/FishRaposo/recall)** | Arcade action: one throwing blade that always comes back; catching it after a hit raises your multiplier. Hitstop, screen shake, input buffering, synthesized sound. | 42 unit tests; [task pack](https://github.com/FishRaposo/recall/tree/main/tasks) of 4 bugs + 2 features, each verified fail → pass in headless Chromium |
+| **[wick](https://github.com/FishRaposo/wick)** | Turn-based roguelike where lantern oil is your field of view: procedural floors, shadowcasting, Dijkstra-map AI (moths chase the light, shades flee it, hounds hunt by sound). | 27 unit tests incl. connectivity over 1,800 generated floors; [task pack](https://github.com/FishRaposo/wick/tree/main/tasks) of 2 bugs + 1 feature |
+| **[thaw](https://github.com/FishRaposo/thaw)** | Ice-sliding puzzle game in twelve rooms, with a breadth-first solver that proves every one. | 29 unit tests, every room re-solved at its stated par each run; [task pack](https://github.com/FishRaposo/thaw/tree/main/tasks) of 2 bugs + 1 feature |
 
 Also: [game-systems-sandbox](https://github.com/FishRaposo/game-systems-sandbox), a portfolio piece of seeded Monte Carlo balance simulators. All three play in the browser on [itch.io](https://fishraposo.itch.io); everything else: [fishraposo.github.io/#games](https://fishraposo.github.io/#games).
 
@@ -107,4 +107,4 @@ I'm open to game-dev evaluation and task-design work (training and testing AI on
 
 Send me what you're tired of babysitting. I'll tell you specifically what's wrong before you spend a dollar.
 
-<sub>Last updated: 2026-11-08</sub>
+<sub>Last updated: 2026-11-09</sub>
